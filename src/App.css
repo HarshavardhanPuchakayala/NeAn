@@ -1,0 +1,795 @@
+.Nav1{
+    background-color: var(--MainColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem 4rem;
+
+}
+
+.Nav1 h1{
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav1 .NavContact{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.Nav1 .NavContact .icon{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.Nav1 .NavContact a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.15rem;
+    color: var(--PrimaryColor);
+    text-decoration: none;
+}
+
+/*Nav2*/
+
+.Nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.Nav2 img{
+    width: 8%;
+}
+.Nav2 .NavMenu{
+    display: flex;
+    gap: 5rem;
+}
+.Nav2 .NavMenu a{
+    text-decoration: none;
+    color: var(--MainColor);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* .Nav2 .NavMenu a:hover{
+    background-color: var(--MainColor);
+    color: white;
+    padding: 0.1rem 0.25rem;
+} */
+.Nav2 .MenuIcon{
+      display: none;
+}
+.Nav2 .MenuIcon .Icon{
+    font-size: 2rem;
+    color: var(--MainColor);
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+}
+
+.FooterSub{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.FooterTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 0 0;
+}
+.FooterTop img{
+    width: 12%;
+    height: 100%;
+    margin: auto 0 0 0;
+}
+.FooterTop h1{
+    font-family: var(--Font1);
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.FooterBottom{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+}
+.FooterBottom .div1{
+  display: flex;
+  flex-direction: column;
+  margin: 6rem 0 2rem 0;
+  gap: 1rem;
+}
+.FooterBottom h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+.FooterLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.FooterLinks a{
+    color: var(--SubColor);
+    text-decoration: none;
+}
+.FooterLinks a:hover{
+    text-decoration: underline;
+}
+
+
+.FooterBottom .Address{
+    display: flex;
+    gap: 6rem;
+}
+.FooterBottom .Address a{
+    color: var(--SubColor);
+    text-decoration: none;
+}
+.FooterBottom .div2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.CopyrightsDiv{
+    display: flex;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    border-top:2px solid var(--SubColor);
+}
+.copyRights{
+
+}
+.Editor{
+    display: inline;
+}
+.Editor a{
+    font-size: 1rem;
+    color: var(--SubColor);
+    text-decoration: underline;
+}
+
+
+/*Home Page*/
+
+.HomeAbout{
+    width: 80%;
+    padding: 4rem 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.HomeAbout h1{
+    font-family: var(--Font1);
+    font-size: 2.5rem;
+    width: 50%;
+}
+
+.HomeAbout p{
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+
+/*What we do*/
+
+.HomeWhatWeDo{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    gap: 4rem;
+    font-family: var(--Font1);
+}
+
+.HomeWhatWeDo .Content{
+    padding: 2rem;
+    margin: auto 0;
+}
+.HomeWhatWeDo .Content h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.HomeWhatWeDo .Content h4{
+    font-size: 2.6rem;
+    padding-top: 0.5rem;
+}
+
+.HomeWhatWeDo .Content h3{
+    font-size: 4rem;
+}
+
+.HomeWhatWeDo .Content .WhatweDoGrid{
+    display: grid;
+    grid-template-columns: 58% 40%;
+    gap: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.HomeWhatWeDo .Content .WhatweDoGrid .card{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    padding: 2rem 0;
+    border-radius: 0.75rem;
+}
+
+.HomeWhatWeDo .Content .WhatweDoGrid .card img{
+    width: 14%;
+}
+
+.HomeWhatWeDo .Content .WhatweDoGrid .card p{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.HomeWhatWeDo .WhatWeDoImg{
+    width: 89%;
+    height: 100dvh;
+}
+
+
+/*HomeProjectsSlide*/
+.HomeProjects{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    padding: 4rem;
+    font-family: var(--Font1);
+}
+.HomeProjects h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.HomeProjectsSlide{
+    margin-top: 5rem;
+
+}
+
+.HomeProjectsSlide .SrvImg{
+    width: 100%;
+    height: 60vh;
+}
+
+.HomeProjectsSlide .SrvContent h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/*Brands*/
+
+.Brands{
+    padding: 4rem;
+}
+
+.BrandsSlider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.BrandsImg{
+    width: 60%;
+    float: center;
+}
+
+/*Home PEW*/
+
+.HomePEWSection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.HomePEWSection img{
+    width: 100%;
+    height: 80dvh;
+}
+
+.HomwPEWContent{
+    font-family: var(--Font1);
+}
+
+
+.HomwPEWContent h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+
+.HomwPEWContent h2{
+    width: 80%;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+
+.HomwPEWContent p{
+    font-size: 1.1rem;
+    width: 80%;
+    line-height: 1.5rem;
+}
+
+/*Home Work*/
+
+.HomeWork{
+    padding: 2rem 0;
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    font-family: var(--Font1);
+}
+
+.HomeWork h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1rem 0 1rem 4rem;
+}
+
+.HomeWork .WorkGrid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: auto;
+    padding:0 1rem 2rem 2rem;
+    gap: 3rem;
+}
+
+.HomeWork .WorkGrid .card{
+
+}
+
+.HomeWork .WorkGrid .card h1{ 
+    font-size:4rem;
+    font-weight: 500;
+}
+
+.HomeWork .WorkGrid .card p{
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+
+/*Services Home*/
+
+.ServicesHome{
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ServicesHome img{
+    width: 60%;
+    height: 70dvh;
+}
+
+.ServicesHome .Div1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ServicesHome .Div1 h1{
+    font-size: 2.5rem;
+    font-family: var(--Font1);
+}
+
+.ServicesHome .Div1 p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+
+/*Teams*/
+.TeamSection{
+    padding: 4rem;
+    background-color: var(--MainColor);
+}
+.TeamSection h1{
+    color: var(--SubColor);
+    font-family: var(--Font1);
+    font-size: 4rem;
+    width: 100%;
+    font-weight: 400;
+}
+
+
+.TeamGrid{
+   display: flex;
+   gap: 2rem;
+   justify-content: space-between;
+}
+.TeamNameGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin: auto 0 0 0;
+}
+.TeamCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.TeamCard h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--Font1);
+}
+
+.TeamCard p{
+    font-size: 1.1rem;
+    color: var(--SubColor);
+}
+
+
+.TeamProfileGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.TeamCard{
+    display: flex;
+    width: 100%;
+}
+
+.TeamCard img{
+    width: 240px;
+}
+
+/*Testimonials*/
+
+.ClientSection{
+    padding: 2rem;
+}
+.ClientSection h1{
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: var(--Font1);
+}
+
+.ClientTestimonialCards{
+    display: flex;
+    padding:3rem 2rem ;
+    width: 70%;
+    margin-left: auto;
+    gap: 2rem;
+}
+
+
+.Testimonial1 h6{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.Testimonial1 p{
+    font-size: 1rem;
+    font-family: var(--Font1);
+    padding-top: 0.5rem;
+}
+
+
+
+
+/*Contact Us Page*/
+
+.ContactUsSection{
+    background-color: var(--MainColor);
+    padding-bottom: 61rem;
+}
+
+.ContactUsSection .ContactBanner{
+    background: url("/assets/ContactUsImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactUsSection .ContactBanner h1{
+    font-size: 3rem;
+    font-family: var(--Font1);
+    font-weight: 800;
+    color: var(--SubColor);
+    background-color: rgb(0, 0, 0,0.25);
+}
+
+.ContactUsSection .GetInTouch{
+    color: var(--SubColor);
+    font-size: 4rem;
+    font-family: var(--Font1);
+    font-weight: 700;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.FormGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: 0 auto;
+    color: var(--SubColor);
+    gap: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Form{
+    display: flex;
+    gap: 1rem;
+}
+form input{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgb(36, 119, 151);
+    border: none;
+    border-radius: 0.25rem;
+}
+form textarea{
+    background-color: rgb(36, 119, 151);
+    border: none;
+    border-radius: 0.25rem;
+    resize: none;
+    height: 20dvh;
+}
+form input::placeholder,form textarea::placeholder{
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--SubColor);
+    font-family: var(--Font1);
+}
+
+form button{
+    margin: 0 auto 0 0;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.FormContent{
+
+}
+
+.FormContent h1{
+    font-size: 2.5rem;
+    font-family: var(--Font1);
+    position: relative;
+    line-height: 4rem;
+}
+.FormContent h1::after{
+    content: "";
+    width: 4rem;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: 0.25rem;
+    bottom: 0;
+
+}
+
+.FormContent p{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.ContactDetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.Div1{
+    display: flex;
+    gap: 1rem;
+}
+
+.Div1 .FormIcon{
+    font-size: 1.5rem;
+    background-color: var(--SubColor);
+    color: var(--MainColor);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.Div1Content h6{
+    font-size: 1.25rem;
+    font-family: var(--Font1);
+}
+.Div1Content p{
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+    font-size: 1rem;
+}
+
+
+
+
+/*Portfolio*/
+
+.PortfolioSection{
+
+}
+
+.PortfolioBanner{
+    background: url("/assets/PortfolioBanner.png") no-repeat center;
+    padding: 4rem 0;
+    height: 40dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PortfolioBanner h1{
+    font-size: 3rem;
+    color: var(--SubColor);
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    font-family: var(--Font1);
+}
+
+
+.PortfolioHeading{
+    display: flex;
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.PortfolioHeading h1{
+    font-size: 2.5rem;
+    font-family: var(--Font1);
+}
+.PortfolioHeading p{
+    font-size: 1.2rem;
+    width: 50%;
+    line-height: 1.8rem;
+}
+
+.Portfolio{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+}
+.PortfolioGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+.PortfolioGrid h1{
+    font-size: 3rem;
+    font-family: var(--Font1);
+}
+.PortfolioImgsGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.PortfolioImgsGrid img{
+    width: 360px;
+    height: 100%;
+}
+
+
+
+/*Products Section*/
+
+.ProductsBanner{
+    background: url("/assets/ProductsBanner.png") no-repeat center;
+    height: 40dvh;
+    padding: 4rem 0;
+}
+
+.ProductsIntro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    padding:3rem 5rem;
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+}
+
+.ProductsIntroDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ProductsIntroDiv p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+
+}
+.ProductsIntro img{
+    width: 100%;
+}
+
+.OurProductsGrid{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.OurProductsGrid h1{
+    font-size: 2rem;
+    font-family: var(--Font1);
+    padding: 1rem 0 2rem 0;
+}
+
+.OurProductsGrid .Div1{
+    display: flex;
+}
+.OurProductsGrid .Div2{
+    display: flex;
+    flex-direction: column;
+}
+.OurProductsGrid .Div2 img{
+    width: 100%;
+}
+.OurProductsGrid .Div2 p{
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+    font-weight: 600;
+}
+
+.IdlersIntro{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    padding: 3rem 2rem;
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    gap: 3rem;
+}
+.IdlersIntro img{
+    width: 100%;
+}
+.IdlersIntro .Context{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.reverse{
+    background-color: var(--SubColor);
+    color: var(--MainColor);
+}
