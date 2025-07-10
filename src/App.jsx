@@ -1,21 +1,39 @@
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import { lazy, Suspense } from 'react';
+import {Routes,Route } from 'react-router';
 
-import Home from "./components/Home";
-import Products from "./components/Products";
-import Portfolio from "./components/Portfolio";
-import ContactUS from "./components/ContactUS";
+
+const NavBar = lazy(()=>import("./components/NavBar"));
+const Footer = lazy(()=>import("./components/Footer"));
+
+const Home = lazy(()=>import("./components/Home"));
+
+const Products = lazy(()=>import("./components/Products"));
+
+const Portfolio = lazy(()=>import("./components/Portfolio"));
+
+const ContactUS = lazy(()=>import("./components/ContactUS"));
+
+const ScrollTop = lazy(()=>import("./components/ScrollTop"));
+
+
+
+const Loading =lazy(()=>import("./components/Loading"));
 
 import "./App.css";
 export default function App() {
   return (
     <>
-    <NavBar/>
-    {/* <Home/> */}
-    {/* <Portfolio/> */}
-    <Products/>
-    {/* <ContactUS/> */}
-    <Footer/>
+      <Suspense fallback={<Loading />}>
+      <NavBar/>
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Portfolio' element={ <Portfolio/>}/>
+      <Route path='/Products' element={ <Products/>}/>
+      <Route path='/ContactUS' element={ <ContactUS/>}/>
+     </Routes>
+       <Footer/>
+        <ScrollTop/> 
+      </Suspense>
     </>
   )
 }
