@@ -28,7 +28,7 @@ export default function Products() {
     </div>
 
 
-    <div className="IdlersIntro">
+    {/* <div className="IdlersIntro">
         <img src="/assets/Portfolio1.png" alt="Idlers"/>
         <div className="Context">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident, quas vero nesciunt reprehenderit in perspiciatis est rem similique consequuntur porro ducimus minus repellat maiores, labore corporis eius illo officia?</p>
@@ -45,7 +45,7 @@ export default function Products() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deleniti natus, voluptas minima officia, commodi non ad fugit iusto eveniet reiciendis ipsam adipisci qui! Molestiae quam quibusdam atque laudantium magnam.</p>
         </div>
                 <img src="/assets/Product2.png" alt="Idlers"/>
-    </div>
+    </div> */}
   </section>
   </>
   )

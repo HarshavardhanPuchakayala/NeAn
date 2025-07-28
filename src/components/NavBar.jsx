@@ -20,8 +20,8 @@ export default function NavBar() {
 
         <div className="NavMenu">
             <Link to="/">Home</Link>
-            <Link to="">About us</Link>
-            <Link to="">PEB</Link>
+            <Link to="/AboutUs">About us</Link>
+            <Link to="/PEB">PEB</Link>
             <Link to="/Products">Products</Link>
             <Link to="/Portfolio">Portfolio</Link>
             <Link to="/ContactUS">Contact us</Link>

@@ -7,6 +7,9 @@ const Footer = lazy(()=>import("./components/Footer"));
 
 const Home = lazy(()=>import("./components/Home"));
 
+const AboutUs = lazy(()=>import("./components/AboutUs"));
+
+const PEB =lazy(()=>import("./components/PEB"));
 const Products = lazy(()=>import("./components/Products"));
 
 const Portfolio = lazy(()=>import("./components/Portfolio"));
@@ -27,6 +30,8 @@ export default function App() {
       <NavBar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/AboutUs' element={<AboutUs/>}/>
+       <Route path='/PEB' element={ <PEB/>}/>
       <Route path='/Portfolio' element={ <Portfolio/>}/>
       <Route path='/Products' element={ <Products/>}/>
       <Route path='/ContactUS' element={ <ContactUS/>}/>

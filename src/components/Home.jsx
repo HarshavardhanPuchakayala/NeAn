@@ -18,23 +18,28 @@ export default function Home() {
         playsInline
       >
         <source src="/assets/Video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+    
       </video>
 
       <div className="slider-content">
-        <h1>Your final impact statement goes here. Make it memorable!</h1>
+       
       </div>
     </div>
 
 
     <div className="HomeAbout">
           <h1>
-            Sometimes, all we need is a push in the right direction.
+            Precision in Every Piece. Innovation in Every Idea
           </h1>
 
           <p>
-            Stronger Spirit is a non-profit foundation dedicated to supporting and empowering anyone recovering from alcohol addiction. Our founders have been where you are now. We understand what you need without you saying it.
+            At Nean Industries, our story is built on grit, innovation, and a vision to transform possibilities into realities. What started in a modest garage has evolved into a benchmark for quality and engineering in India’s manufacturing landscape.
+              <br/>
+               <br/>
+          We began by doing what was necessary, then mastered what was possible—and now, we’re proud to deliver what was once thought impossible.
           </p>
+      
+    
     </div>
     <CountDown/>
 
@@ -218,9 +223,15 @@ export default function Home() {
     <div className="HomePEWSection">
       <img src="/assets/PEW.png" alt="PRE-ENGINEERING BUILDINGS" />
       <div className="HomwPEWContent">
-        <h1>PRE-ENGINEERING <br/>BUILDING</h1>
-        <h2>We handle projects from start to finish, including design, permits and construction management.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis asperiores labore incidunt. Architecto reiciendis consequuntur libero est aliquam voluptatum quae aperiam sed esse tempora perspiciatis, enim voluptatibus, corporis recusandae?</p>
+        {/* <h1>PRE-ENGINEERING <br/>BUILDING</h1> */}
+        <h1>Pre-Engineered Building (PEB) Solutions</h1>
+        <h2>Smart Structures. Fast Execution. Long-Term Reliability.</h2>
+        <p>At Nean Industries, we bring precision engineering and modern construction together with our <b>Pre-Engineered Building (PEB) solutions</b> a perfect blend of speed, strength, and sustainability. Designed for quick deployment and structural efficiency, our PEB structures are ideal for <b>industrial sheds, warehouses, manufacturing plants, logistics hubs, and commercial spaces.</b>
+        <br />
+        <br />
+        With in-house fabrication, CNC-enabled production lines, and expert structural engineers, we deliver <b>custom-designed PEBs</b> that meet exact client specifications while ensuring <b>durability, scalability, and cost-effectiveness.</b> From concept to commissioning, Nean Industries is your trusted partner for turnkey steel building solutions that stand the test of time.
+        </p>
+
       </div>
     </div>
 
@@ -243,8 +254,19 @@ export default function Home() {
       <img src="/assets/ServicesHome.png" alt="NeAn Industries Pvt Ltd" />
 
       <div className="Div1">
-        <h1>YOUR PRE-TITLE GOES HERE</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, fugit odio quasi quidem unde assumenda at eos, similique eum culpa explicabo. Inventore enim provident illum perferendis maiores fugiat numquam. Molestiae!
+        <h1>We believe in doing things with precision and purpose</h1>
+        <p>At Nean Industries, every project is powered by engineering excellence, attention to detail, and a passion for innovation.
+           Our work culture blends traditional craftsmanship with modern automation, ensuring consistent quality and continuous improvement.
+        From product design to final delivery, we focus on efficiency, customer satisfaction, and scalable growth—building not just components,
+         but lasting partnerships.
+
+          <br />
+          <br />
+
+          Our development approach is centered around innovation, customization, and continuous improvement.
+           We don't just manufacture we engineer solutions. By staying aligned with evolving industry needs and
+            investing in skilled talent and modern infrastructure, Nean Industries continues to scale sustainably,
+             empowering industries and exceeding customer expectations at every stage.
         </p>
       </div>
     </div>

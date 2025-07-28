@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="FooterTop">
         <img src={Logo} alt="NeAn Industries Pvt Ltd" />
 
-        <h1>Your final impact statements goes here.Make it memorable!</h1>
+        <h1>At Nean, every product is a promise of quality, of innovation, and of lasting performance</h1>
     </div>
     <div className="FooterBottom">
         <div className="div1">
@@ -28,21 +28,35 @@ export default function Footer() {
                     Any City, ST 1234
                 </address>
                 </a>
-                <a href="http://" target="_blank">
-                    <address>
-                    123 Anywhere St.,<br/>
-                    Any City, ST 1234
-                </address>
-                </a>
-                <a href="http://" target="_blank">
-                    <address>
-                    123 Anywhere St.,<br/>
-                    Any City, ST 1234
-                </address>
-                </a>
             </div>
+            
         </div>
+
+                       <div className="div2">
+            <h1>Terms & Conditions</h1>
+                <a href="http://">Privacy Policy</a>
+                 <a href="http://">Terms of Services</a>
+                  <a href="http://">Service & Inspections</a>
+        </div>
+
+
+        <div className="div2">
+            <h1>Office Hours</h1>
+         <ul>
+            <li>Mon: 9 AM to 5:30 PM</li>
+            <li>Tue: 9 AM to 5:30 PM</li>
+            <li>Wed: 9 AM to 5:30 PM</li>
+            <li>Thr: 9 AM to 5:30 PM</li>
+            <li>Fri: 9 AM to 5:30 PM</li>
+            <li>Sat: 9 AM to 5:30 PM</li>
+            <li>Sun: 9 AM to 5:30 PM</li>
+         </ul>
+        </div>
+
+
+
     </div>
+    
 </div>
  <div className="CopyrightsDiv">
     <p className="copyRights">© {new Date().getFullYear()} NeAn Industries Pvt Ltd | All rights reserved.</p>
