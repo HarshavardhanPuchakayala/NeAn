@@ -7,10 +7,14 @@ const WhatWeDoHomeData=[
 ];
 
 const HomeProjects=[
-    {id:1,name:"OBSIDIAN BANK",img:"/assets/Txt1.png"},
-    {id:2,name:"EUREKA VISION THEATER",img:"/assets/Txt2.png"},
-    {id:3,name:"ROSETON BUILDING",img:"/assets/Txt3.png"},
-    {id:4,name:"CORPORATE",img:"/assets/Txt4.png"}
+    {id:1,name:"PROJECT 1",img:"/assets/P1.jpg"},
+    {id:2,name:"PROJECT 2",img:"/assets/P2.jpg"},
+    {id:3,name:"PROJECT 3",img:"/assets/P3.jpg"},
+    {id:4,name:"PROJECT 4",img:"/assets/P4.jpg"},
+    {id:5,name:"PROJECT 5",img:"/assets/P5.jpg"},
+    {id:6,name:"PROJECT 6",img:"/assets/P6.jpg"},
+    {id:7,name:"PROJECT 7",img:"/assets/P7.jpg"},
+    {id:8,name:"PROJECT 8",img:"/assets/P8.jpg"},
 ];
 
 const HomeBrands=[
@@ -21,10 +25,18 @@ const HomeBrands=[
 ];
 
 const HomePortfolio=[
-    {id:1,name:"Corporate",img:"/assets/Txt1.png"},
-    {id:2,name:"EUREKA VISION THEATER",img:"/assets/Txt2.png"},
-    {id:3,name:"ROSETON BUILDING",img:"/assets/Txt3.png"},
-    {id:4,name:"OFFICE",img:"/assets/Txt4.png"},
+    {id:1,name:"Corporate",img:"/assets/PO1.jpg"},
+    {id:2,name:"EUREKA VISION THEATER",img:"/assets/PO2.jpg"},
+    {id:3,name:"ROSETON BUILDING",img:"/assets/PO3.jpg"},
+    {id:4,name:"OFFICE",img:"/assets/PO4.jpg"},
+    {id:5,name:"Corporate",img:"/assets/PO5.jpg"},
+    {id:6,name:"EUREKA VISION THEATER",img:"/assets/PO6.jpg"},
+    {id:7,name:"ROSETON BUILDING",img:"/assets/PO7.jpg"},
+    {id:8,name:"OFFICE",img:"/assets/PO8.jpg"},
+    {id:9,name:"Corporate",img:"/assets/PO9.jpg"},
+    {id:10,name:"EUREKA VISION THEATER",img:"/assets/PO10.jpg"},
+    {id:11,name:"ROSETON BUILDING",img:"/assets/PO11.jpg"},
+    {id:12,name:"OFFICE",img:"/assets/PO12.jpg"},
 ];
 
 const HomeWork=[
@@ -41,10 +53,10 @@ const TeamNamesData=[
     {id:4,name:"Olivia Wilson",txt:"Real Estate Agent"}
 ];
 const TeamProfileData=[
-    {id:1,img:"/assets/Profile.png"},
-    {id:2,img:"/assets/Profile.png"},
-    {id:3,img:"/assets/Profile.png"},
-    {id:4,img:"/assets/Profile.png"}
+    {id:1,img:"/assets/Team1.jpg"},
+    {id:2,img:"/assets/Team1.jpg"},
+    {id:3,img:"/assets/Team1.jpg"},
+    {id:4,img:"/assets/Team1.jpg"}
 ];
 
 const PortfolioImgs=[

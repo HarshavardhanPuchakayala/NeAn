@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </div>
 
-      <img src="/assets/AboutUsHome.png" alt="What we do" className="WhatWeDoImg"/>
+      <img src="/assets/AboutUsHome.jpg" alt="What we do" className="WhatWeDoImg"/>
     </div>
 
     <div className="HomeProjects">

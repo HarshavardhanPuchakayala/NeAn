@@ -171,10 +171,10 @@ body{
 }
 
 .AboutUsSection .AboutUsBanner{
-  background: url("../public/assets/AboutBanner.png");
+  background: url("../public/assets/Aboutus.jpg");
   background-size: cover;
   background-position: center;
-  height: 50dvh;
+  height: 80dvh;
 }
 
 .AboutUSiNTRO{
@@ -389,4 +389,25 @@ body{
 
 .PEBWork{
 
+}
+
+
+
+
+/* PortfolioMenu */
+
+.PortfolioSection{
+  background-color: #003049;
+  color: white;
+}
+.PortfolioMenu{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 2rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.PortfolioMenu img{
+  width: 100%;
 }

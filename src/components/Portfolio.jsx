@@ -1,4 +1,4 @@
-import {PortfolioImgs} from "../Data.js";
+import {HomePortfolio} from "../Data.js";
 export default function Portfolio() {
   return (
     <>
@@ -8,21 +8,16 @@ export default function Portfolio() {
         </div>
 
         <div className="PortfolioHeading">
-            <h1> Vandemar is built on <br/>Our founders unique<br/> Outlook on Construction </h1>
+            <h1> Nean is built on <br/>Our founders unique<br/> Outlook on Construction </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et nam amet quo consectetur fugit alias voluptate dolores consequatur at laborum minima exercitationem eligendi, sequi atque neque pariatur officia nisi.</p>
         </div>
-
-        <div className="Portfolio">
-            <div className="PortfolioGrid">
-                <h1>Idlers</h1>
-                <div className="PortfolioImgsGrid">
-                    {PortfolioImgs.map((i)=>(
-                        <img src={i.img} alt={i.id} key={i.id} />
-                    ))}
-                </div>
+   </section>
+        <div className="PortfolioMenu">
+            {HomePortfolio.map((i)=>(
+                <img src={i.img} key={i.id}/>
+            ))}
             </div>
-        </div>
-    </section>
+ 
     </>
   )
 }
