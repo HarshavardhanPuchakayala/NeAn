@@ -1,5 +1,9 @@
-import {PEBProcess,HomeWork} from "../Data";
+import {PEBProcess,HomeWork,HomeProjects,PEBComponets} from "../Data";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination} from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 export default function PEB() {
   return (
     <>
@@ -20,7 +24,7 @@ export default function PEB() {
     </div>
 
 
-    <div className="PEBProcess">
+    {/* <div className="PEBProcess">
         <h1>Our Process</h1>
         <div className="PEBProcessGrid">
             {PEBProcess.map((i)=>(
@@ -31,10 +35,81 @@ export default function PEB() {
             ))}
           
         </div>
+    </div> */}
+
+
+
+    <div className="PebComponets">
+      <h1>A pre-engineered steel building is composed of the following main components</h1>
+
+      <div className="ComponetsDiv">
+        {PEBComponets.map((i)=>(
+
+    
+        <div className="CCard">
+          <img src={i.img} alt={i.name} />
+          <h6>{i.name}</h6>
+        </div>
+            ))}
+      </div>
     </div>
 
+   <div className="HomeProjects">
+      <h1>Projects</h1>
+ <Swiper
+      cssMode={true}
+      lazy={true}
+      rewind={true}
+      slidesPerView={3}
+    
+      autoplay={{
+        delay: 8000,
+        disableOnInteraction: false,
+      }}
+    
+      modules={[Autoplay, Pagination]}
+      className="mySwiper HomeProjectsSlide"
+      spaceBetween={20}
+       breakpoints={{
+    0: {
+      slidesPerView: 1, 
+    },
+    768: {
+      slidesPerView: 2, 
+    },
+    1024: {
+      slidesPerView: 3, 
+    },
+    1280: {
+      slidesPerView: 3, 
+    },
+    1536: {
+      slidesPerView: 3, 
+    }
+  }}
+    >
+{HomeProjects.map((srv)=>(
+   <SwiperSlide
+         key={srv.id}
+            
+            style={{ cursor: "pointer" }}>
+          <img src={srv.img} 
+          loading="lazy"
+            className='SrvImg'
+            alt={srv.name}/>
 
-        <div className="HomeWork ">
+          <div className="SrvContent">
+            <h1>{srv.name}</h1>
+          </div>
+        </SwiperSlide>
+))}
+
+      
+
+    </Swiper>
+    </div>
+
+        {/* <div className="HomeWork ">
             <h1>Why work with us</h1>
             <div className="PEBDiv">
             <img src="/assets/PEB.png" alt="PEB" srcset="" />
@@ -48,7 +123,7 @@ export default function PEB() {
        
       </div>
       </div>
-    </div>
+    </div> */}
    </section>
     </>
   )

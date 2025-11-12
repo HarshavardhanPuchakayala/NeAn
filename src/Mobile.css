@@ -1,28 +1,33 @@
+@media only screen and (max-width: 600px) {
+
+    body{
+        border: 1px solid red;
+    }
 .Nav1{
-    background-color: var(--MainColor);
     display: flex;
     align-items: center;
     justify-content: space-between;
+     flex-direction: column;
     color: white;
     padding: 1rem 4rem;
 
 }
 
 .Nav1 h1{
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
-    font-family: var(--heading);
 }
 
 .Nav1 .NavContact{
     display: flex;
     align-items: center;
-    gap: 3rem;
+ 
+    gap: 1rem;
 }
 .Nav1 .NavContact .icon{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -30,10 +35,9 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: var(--PrimaryColor);
     text-decoration: none;
-     font-family: var(--heading);
 }
 
 /*Nav2*/
@@ -42,29 +46,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 4rem;
+    padding: 1rem;
 }
 
 .Nav2 img{
-    width: 8%;
+    width: 40%;
 }
 .Nav2 .NavMenu{
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
+    flex-direction: column;
+    display: none;
 }
 .Nav2 .NavMenu a{
     text-decoration: none;
     color: var(--MainColor);
     font-size: 1.2rem;
     font-weight: 600;
-     font-family: var(--heading);
 }
 
-/* .Nav2 .NavMenu a:hover{
-    background-color: var(--MainColor);
-    color: white;
-    padding: 0.1rem 0.25rem;
-} */
+
 .Nav2 .MenuIcon{
       display: none;
 }
@@ -75,10 +76,7 @@
 
 /* Footer */
 
-footer{
-    background-color: var(--MainColor);
-    color: var(--SubColor);
-}
+
 
 .FooterSub{
     width: 90%;
@@ -87,38 +85,38 @@ footer{
 
 .FooterTop{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 2rem 0 0 0;
 }
 .FooterTop img{
-    width: 12%;
+    width: 80%;
     height: 100%;
     margin: auto 0 0 0;
 }
 .FooterTop h1{
- font-family: var(--heading);
-    width: 50%;
-    font-size: 3rem;
-    font-weight: 200;
+    font-family: var(--Font1);
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 1rem;
 }
 
 .FooterBottom{
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 90%;
+  align-items: center;
+  padding-bottom: 1rem;
 }
 .FooterBottom .div1{
   display: flex;
   flex-direction: column;
-  margin: 6rem 0 2rem 0;
+  margin: 2rem 0;
   gap: 1rem;
 }
 .FooterBottom h1{
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0;
-     font-family: var(--heading);
 }
 .FooterLinks{
     display: flex;
@@ -136,7 +134,7 @@ footer{
 
 .FooterBottom .Address{
     display: flex;
-    gap: 6rem;
+    gap: 2rem;
 }
 .FooterBottom .Address a{
     color: var(--SubColor);
@@ -151,13 +149,13 @@ footer{
 
 .CopyrightsDiv{
     display: flex;
-    padding: 1rem 4rem;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
     justify-content: space-between;
     border-top:2px solid var(--SubColor);
 }
-.copyRights{
 
-}
 .Editor{
     display: inline;
 }
@@ -171,35 +169,28 @@ footer{
 /*Home Page*/
 
 .HomeAbout{
-    width: 80%;
-    padding: 4rem 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
+    width: 95%;
+    padding: 1.5rem 0;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .HomeAbout h1{
-  font-family: var(--heading);
     font-size: 2.5rem;
-    width: 50%;
+    width: 100%;
 }
 
 .HomeAbout p{
     font-size: 1.2rem;
-    width: 60%;
+    width: 100%;
 }
 
 
 /*What we do*/
 
 .HomeWhatWeDo{
-    display: grid;
-    grid-template-columns: 55% 45%;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    gap: 4rem;
+    grid-template-columns: 100%;
+    gap: 2rem;
     font-family: var(--Font1);
 }
 
@@ -208,24 +199,23 @@ footer{
     margin: auto 0;
 }
 .HomeWhatWeDo .Content h2{
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-family: var(--subHeading);
+    font-size: 1rem;
+    
 }
 
 .HomeWhatWeDo .Content h4{
-    font-size: 2.6rem;
+    font-size: 1.5rem;
     padding-top: 0.5rem;
 }
 
 .HomeWhatWeDo .Content h3{
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .HomeWhatWeDo .Content .WhatweDoGrid{
     display: grid;
-    grid-template-columns: 58% 40%;
-    gap: 2rem;
+    grid-template-columns: 100%;
+    gap: 1rem;
     text-align: center;
     padding-top: 1rem;
 }
@@ -238,7 +228,7 @@ footer{
 }
 
 .HomeWhatWeDo .Content .WhatweDoGrid .card img{
-    width: 14%;
+    width: 25%;
 }
 
 .HomeWhatWeDo .Content .WhatweDoGrid .card p{
@@ -247,26 +237,23 @@ footer{
 }
 
 .HomeWhatWeDo .WhatWeDoImg{
-    width: 89%;
-    height: 100dvh;
+    width: 100%;
+    height: auto;
+    display: none;
 }
 
 
 /*HomeProjectsSlide*/
 .HomeProjects{
-    background-color: var(--MainColor);
-    color: var(--SubColor);
-    padding: 4rem;
-    font-family: var(--Font1);
+    padding: 2rem;
 }
 .HomeProjects h1{
     font-size: 3rem;
     font-weight: 400;
-    font-family: var(--heading);
 }
 
 .HomeProjectsSlide{
-    margin-top: 5rem;
+    margin-top: 2rem;
 
 }
 
@@ -279,22 +266,22 @@ footer{
     font-size: 1.5rem;
     padding-top: 1rem;
     text-align: center;
-    font-family: var(--heading);
 }
 
 /*Brands*/
 
 .Brands{
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .BrandsSlider{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .BrandsImg{
-    width: 60%;
+    width: 100%;
     float: center;
 }
 
@@ -302,14 +289,14 @@ footer{
 
 .HomePEWSection{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     padding: 2rem;
     gap: 2rem;
 }
 
 .HomePEWSection img{
     width: 100%;
-    height: 80dvh;
+    height: auto;
 }
 
 .HomwPEWContent{
@@ -318,25 +305,22 @@ footer{
 
 
 .HomwPEWContent h1{
-    font-size: 4rem;
-    font-weight: 600;
-    font-family: var(--subHeading);
+    font-size: 3rem;
 }
 
 
 .HomwPEWContent h2{
-    width: 80%;
+    width: 100%;
     font-size: 2rem;
     line-height: 2.8rem;
     font-weight: 600;
     padding: 0.5rem 0;
-    font-family: var(--subHeading);
 }
 
 
 .HomwPEWContent p{
-    font-size: 1.1rem;
-    width: 80%;
+    font-size: 1rem;
+    width: 100%;
     line-height: 1.5rem;
 }
 
@@ -353,24 +337,24 @@ footer{
     font-size: 3rem;
     font-weight: 500;
     padding: 1rem 0 1rem 4rem;
-
 }
 
 .HomeWork .WorkGrid{
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     margin-left: auto;
     padding:0 1rem 2rem 2rem;
     gap: 3rem;
 }
 
+.HomeWork .WorkGrid .card{
 
+}
 
 .HomeWork .WorkGrid .card h1{ 
     font-size:4rem;
     font-weight: 500;
-
 }
 
 .HomeWork .WorkGrid .card p{
@@ -388,6 +372,7 @@ footer{
 .ServicesHome{
     padding: 5rem 2rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 2rem;
     width: 90%;
@@ -407,7 +392,7 @@ footer{
 
 .ServicesHome .Div1 h1{
     font-size: 2.5rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 
 .ServicesHome .Div1 p{
@@ -423,7 +408,7 @@ footer{
 }
 .TeamSection h1{
     color: var(--SubColor);
-    font-family: var(--heading);
+    font-family: var(--Font1);
     font-size: 4rem;
     width: 100%;
     font-weight: 400;
@@ -432,12 +417,13 @@ footer{
 
 .TeamGrid{
    display: flex;
+      flex-direction: column;
    gap: 2rem;
    justify-content: space-between;
 }
 .TeamNameGrid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
     margin: auto 0 0 0;
 }
@@ -451,7 +437,7 @@ footer{
 .TeamCard h1{
     font-size: 2rem;
     font-weight: 600;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 
 .TeamCard p{
@@ -462,12 +448,14 @@ footer{
 
 .TeamProfileGrid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
 .TeamCard{
     display: flex;
+ 
+       flex-direction: column;
     width: 100%;
 }
 
@@ -483,11 +471,12 @@ footer{
 .ClientSection h1{
     font-size: 4rem;
     font-weight: 500;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 
 .ClientTestimonialCards{
     display: flex;
+       flex-direction: column;
     padding:3rem 2rem ;
     width: 70%;
     margin-left: auto;
@@ -501,7 +490,7 @@ footer{
 }
 .Testimonial1 p{
     font-size: 1rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
     padding-top: 0.5rem;
 }
 
@@ -521,13 +510,14 @@ footer{
     background-repeat: no-repeat;
     height: 50dvh;
     display: flex;
+ 
     align-items: center;
     justify-content: center;
 }
 
 .ContactUsSection .ContactBanner h1{
     font-size: 3rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
     font-weight: 800;
     color: var(--SubColor);
     background-color: rgb(0, 0, 0,0.25);
@@ -536,7 +526,7 @@ footer{
 .ContactUsSection .GetInTouch{
     color: var(--SubColor);
     font-size: 4rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
     font-weight: 700;
     text-align: center;
     padding: 4rem 0;
@@ -544,7 +534,7 @@ footer{
 
 .FormGrid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     width: 80%;
     margin: 0 auto;
     color: var(--SubColor);
@@ -559,6 +549,7 @@ form{
 
 .Form{
     display: flex;
+       flex-direction: column;
     gap: 1rem;
 }
 form input{
@@ -579,7 +570,7 @@ form input::placeholder,form textarea::placeholder{
     font-size: 1rem;
     padding: 1rem;
     color: var(--SubColor);
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 
 form button{
@@ -598,7 +589,7 @@ form button{
 
 .FormContent h1{
     font-size: 2.5rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
     position: relative;
     line-height: 4rem;
 }
@@ -620,7 +611,7 @@ form button{
 
 .ContactDetails{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
     align-items: center;
     padding-top: 1rem;
@@ -641,7 +632,7 @@ form button{
 
 .Div1Content h6{
     font-size: 1.25rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 .Div1Content p{
     margin: 0;
@@ -663,6 +654,7 @@ form button{
     padding: 4rem 0;
     height: 40dvh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -673,12 +665,13 @@ form button{
     font-weight: 600;
     font-size: 4rem;
     text-align: center;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 
 
 .PortfolioHeading{
     display: flex;
+       flex-direction: column;
     padding: 3rem 0;
     width: 80%;
     margin: 0 auto;
@@ -688,7 +681,7 @@ form button{
 
 .PortfolioHeading h1{
     font-size: 2.5rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 .PortfolioHeading p{
     font-size: 1.2rem;
@@ -710,7 +703,7 @@ form button{
 }
 .PortfolioGrid h1{
     font-size: 3rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
 }
 .PortfolioImgsGrid{
     display: grid;
@@ -762,7 +755,7 @@ form button{
 }
 .OurProductsGrid h1{
     font-size: 2rem;
-    font-family: var(--heading);
+    font-family: var(--Font1);
     padding: 1rem 0 2rem 0;
 }
 
@@ -803,3 +796,340 @@ form button{
     color: var(--MainColor);
 }
 
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.slider-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+.slider-content h1{
+  font-family: var(--Font1);
+  font-size: 3rem;
+  width: 60%;
+  margin: 0 auto
+}
+
+.slider-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+
+
+/* CountDown */
+.CountDownSection{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    font-family: var(--Font1);
+}
+
+.CountDown{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6rem 0;
+}
+.CountDown1,.CountDown2,.CountDown3{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.CountDown1 h1,.CountDown2 h1,.CountDown3 h1{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+}
+
+.CountDown1 h2,.CountDown2 h2,.CountDown3 h2{
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1rem;
+  
+}
+
+
+
+/*==== AboutUs ======*/
+
+
+.AboutUsSection{
+
+}
+
+.AboutUsSection .AboutUsBanner{
+  background: url("../public/assets/Aboutus.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80dvh;
+}
+
+.AboutUSiNTRO{
+  width: 90%;
+  margin: 2rem auto;
+}
+.AboutUSiNTRO h1{
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.AboutUSiNTRO p{
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+}
+
+.OverMissionGrid{
+  display: flex;
+  flex-direction: column;
+}
+
+.OverMissionGrid .div1{
+  background-color: #669bbc;
+  padding: 3rem;
+  text-align: center;
+}
+.OverMissionGrid .div2{
+  background-color: #003049;
+  color: white;
+   padding: 3rem;
+   text-align: center;
+}
+
+.OverMissionGrid .div1 h1,.OverMissionGrid .div2 h1{
+  font-size: 2.5rem;
+}
+
+.OverMissionGrid .div1 p,.OverMissionGrid .div2 p{
+  font-size: 1.1rem;
+}
+
+
+
+.CEOIntroGrid{
+  display: flex;
+    flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+
+}
+
+.CEOVideo{
+  width: 50%;
+}
+
+.CEOContent{
+
+}
+
+.CEOContent h1{
+  font-size: 3rem;
+}
+
+.CEOContent p{
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Servedsection{
+   background-color: #003049;
+    padding: 3rem 2rem;
+    display: flex;
+      flex-direction: column;
+    color: white;
+
+}
+
+.ContentText{
+
+}
+.ContentText h1{
+  font-size: 2.5rem;
+
+}
+.ContentText p{
+  font-size: 1rem;
+  width: 40%;
+}
+.ContentGrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+
+}
+.ContentGrid .Div1{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 0rem;
+
+}
+.ContentGrid .Div1 h1{
+  font-size: 4rem;
+}
+.ContentGrid .Div1 p{
+  font-size: 1.25rem;
+}
+
+
+
+.NextFocusSection{
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.NextFocusSection .Div1{
+  display: flex;
+  flex-direction: column;
+}
+.NextFocusSection .Div1 h1{
+  text-align: center;
+  font-size: 3rem;
+}
+.NextFocusSection .Div1 img{
+  width: 100%;
+}
+.NextFocusSection .Div2 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.NextFocusSection .Div2 ul li{
+  font-size: 2rem;
+}
+/**==PEB==**/
+
+
+.PEBsection{
+
+}
+.PEBsection .PEBBanner{
+  background-image: url("/assets/PEBBG.png");
+  height: 50dvh;
+  background-position:center;
+  background-size: cover;
+}
+.PEBAboutusDiv{
+  background-color: #003049;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  padding: 3rem 2rem;
+  gap: 2rem;
+}
+
+.PEBAboutusDiv img{
+  object-fit: cover;
+  width: 100%;
+  height: 70dvh;
+}
+
+.PEBAboutusDiv .Content{
+  color: white;
+}
+.PEBAboutusDiv .Content h1{
+  font-size: 3rem;
+}
+.PEBAboutusDiv .Content p{
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  padding-top: 1rem;
+}
+
+
+
+.PEBProcess{
+  padding: 2rem 1rem;
+}
+.PEBProcess h1{
+  font-size: 3rem;
+}
+
+.PEBProcessGrid{
+  display: flex;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+.PEBProcessGrid img{
+  width: 100%;
+}
+.PEBDiv{
+  display: flex;
+  padding-top: 2rem;
+  flex-direction: row-reverse;
+}
+
+.PEBDiv .Extra{
+  padding: 0;
+  margin: 0;
+}
+
+
+.PEBWork{
+
+}
+
+
+
+
+/* PortfolioMenu */
+
+.PortfolioSection{
+  background-color: #003049;
+  color: white;
+}
+.PortfolioMenu{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 2rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.PortfolioMenu img{
+  width: 100%;
+}
+}

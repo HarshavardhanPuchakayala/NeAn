@@ -40,17 +40,17 @@ const HomePortfolio=[
 ];
 
 const HomeWork=[
-    {id:1,name:"#1",txt:"Real Estate Group in Whelton from 2022-2025"},
-    {id:2,name:"18+",txt:"Years of Real Estate Experience"},
-    {id:3,name:"10",txt:"Licensed Real Estate Agents"},
-    {id:4,name:"$1K",txt:"Average savings per $100k for our buyers"}
+    {id:1,name:"#1",txt:"Nean Industries from 2002-2025"},
+    {id:2,name:"18+",txt:"Years of Industry Experience"},
+    {id:3,name:"10",txt:"Licensed Real Est"},
+    {id:4,name:"1K",txt:"Average savings per $100k for our buyers"}
 ];
 
 const TeamNamesData=[
-    {id:1,name:"Shawn Garcia",txt:"President"},
-    {id:2,name:"Neil Tran",txt:"Real Estate Agent"},
-    {id:3,name:"Estelle Darcy",txt:"Real Estate Agent"},
-    {id:4,name:"Olivia Wilson",txt:"Real Estate Agent"}
+    {id:1,img:"/assets/Team1.jpg",name:"Mr. Roshi Reddy",txt:"Managing Partner"},
+    {id:2,img:"/assets/Team1.jpg",name:"Mr.S.Ramalingam",txt:"Business Head Marketing"},
+    {id:3,img:"/assets/Team1.jpg",name:"Mr.B.Keshava Reddy",txt:"Head of Production"},
+    {id:4,img:"/assets/Team1.jpg",name:"Mr.Y.Srikanth Reddy",txt:"Head of Planning"}
 ];
 const TeamProfileData=[
     {id:1,img:"/assets/Team1.jpg"},
@@ -109,22 +109,22 @@ const ClientSered=[
     {
         id:1,
         name:"Clients Served",
-        num:135
+        num:2500
     },
     {
         id:2,
-        name:"communities Assisted",
-        num:1320
+        name:"People in our Company",
+        num:200
     },
     {
         id:3,
-        name:"Businesses Optimised",
-        num:225
+        name:"Happy Customers",
+        num:1500
     },
     {
         id:4,
-        name:"Projects Delivered",
-        num:2345
+        name:"Years of Experience",
+        num:23
     }
 ];
 
@@ -163,6 +163,185 @@ const PEBProcess=[
         txt:"Step 3"
     },
     
+];
+
+
+
+const PEBComponets=[
+    {
+        id:1,
+        name:"Main Frames",
+        img:"/assets/MainFrames.png"
+    },
+    {
+        id:2,
+        name:"Secondary Members / Cold Formed Members",
+        img:"/assets/sm.png"
+    },
+    {
+        id:3,
+        name:"Roof & Wall Panels",
+        img:"/assets/Roof.png"
+    },
+    {
+        id:4,
+        name:" Accessories, Buyouts, Crane System, Mezzanine System, Insulation",
+        img:"/assets/Accessories.png"
+    },
+    {
+        id:5,
+        name:"Sandwich Panels",
+        img:"/assets/Sandwich.png"
+    }
+];
+
+
+const BrandsSlider=[
+    [{
+        name:"NTPC",
+        img:"NTPC.png"
+    },
+    {
+        name:"Adani",
+        img:"Adani.png"
+    },
+       {
+        name:"Torrent Power",
+        img:"Torrent.png"
+    },
+       {
+        name:"MahaGenco",
+        img:"mahagenco.png"
+    },
+       {
+        name:"Karnataka Power",
+        img:"Karanataka.jpg"
+    },
+       {
+        name:"Nuppl",
+        img:"Nuppl.jpg"
+    },
+       {
+        name:"TSGENCO",
+        img:"TSgenco.jpg"
+    },
+       {
+        name:"BHEL",
+        img:"BHEL.png"
+    },
+       {
+        name:"APGENCO",
+        img:"APGENCO.jpg"
+    } ,  {
+        name:"Thermax",
+        img:"THERMAX.png"
+    },],
+    [
+        {
+        name:"Ultratech",
+        img:"Ultratech.png"
+    },
+        {
+        name:"Ambuja",
+        img:"Ambuja.png"
+    },
+        {
+        name:"Penna",
+        img:"Penna.png"
+    },
+        {
+        name:"ramco",
+        img:"ramco.jpeg"
+    },
+        {
+        name:"kcp",
+        img:"kcp.jpeg"
+    },
+        {
+        name:"nagarjuna",
+        img:"nagarjuna.png"
+    },
+        {
+        name:"jk",
+        img:"jk.png"
+    },
+        {
+        name:"cccc",
+        img:"cccc.png"
+    }
+    ],
+    [
+     {
+        name:"jindal",
+        img:"jindal.png"
+    },
+    {
+        name:"am/ns india",
+        img:"am.png"
+    },
+         {
+        name:"jindal",
+        img:"jindal.png"
+    },
+    {
+        name:"am/ns india",
+        img:"am.png"
+    },
+    {
+        name:"sail",
+        img:"sail.png"
+    },
+        {
+        name:"jsw",
+        img:"jsw.png"
+    },
+    {
+        name:"Tata",
+        img:"tata.png"
+    },
+        {
+        name:"ARJAS",
+        img:"ARJAS.png"
+    },
+    {
+        name:"VIZG",
+        img:"VIZG.png"
+    }
+    ],
+    [
+        {
+            name:"Create",
+            img:"Create.png"
+        },
+        {
+            name:"sccl",
+            img:"sccl.jpeg"
+        },
+        {
+            name:"hec",
+            img:"hec.png"
+        },
+        {
+            name:"kiocl",
+            img:"kiocl.png"
+        },
+        {
+            name:"takraf",
+            img:"takraf.png"
+        }
+    ]
+];
+
+
+
+
+const Idlers=[
+    {
+        id:1,
+        img:"",
+        name:""
+    },
+
 ]
 export {
     WhatWeDoHomeData,
@@ -177,5 +356,8 @@ export {
     TestimonialsData,
     ClientSered,
     FocusData,
-    PEBProcess
+    PEBProcess,
+    BrandsSlider,
+    PEBComponets,
+   Idlers
 };

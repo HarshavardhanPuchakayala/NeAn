@@ -1,4 +1,4 @@
-import { WhatWeDoHomeData,HomeProjects,HomeBrands,HomePortfolio,HomeWork,TeamNamesData,TeamProfileData } from "../Data";
+import { WhatWeDoHomeData,HomeBrands,HomePortfolio,HomeWork,TeamNamesData,TeamProfileData } from "../Data";
 
 import CountDown from "./CountDown";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -62,62 +62,9 @@ export default function Home() {
       <img src="/assets/AboutUsHome.jpg" alt="What we do" className="WhatWeDoImg"/>
     </div>
 
-    <div className="HomeProjects">
-      <h1>Projects</h1>
- <Swiper
-      cssMode={true}
-      lazy={true}
-      rewind={true}
-      slidesPerView={3}
-    
-      autoplay={{
-        delay: 8000,
-        disableOnInteraction: false,
-      }}
-    
-      modules={[Autoplay, Pagination]}
-      className="mySwiper HomeProjectsSlide"
-      spaceBetween={20}
-       breakpoints={{
-    0: {
-      slidesPerView: 1, 
-    },
-    768: {
-      slidesPerView: 2, 
-    },
-    1024: {
-      slidesPerView: 3, 
-    },
-    1280: {
-      slidesPerView: 3, 
-    },
-    1536: {
-      slidesPerView: 3, 
-    }
-  }}
-    >
-{HomeProjects.map((srv)=>(
-   <SwiperSlide
-         key={srv.id}
-            
-            style={{ cursor: "pointer" }}>
-          <img src={srv.img} 
-          loading="lazy"
-            className='SrvImg'
-            alt={srv.name}/>
+ 
 
-          <div className="SrvContent">
-            <h1>{srv.name}</h1>
-          </div>
-        </SwiperSlide>
-))}
-
-      
-
-    </Swiper>
-    </div>
-
-    <div className="Brands">
+    {/* <div className="Brands">
  <Swiper
       cssMode={true}
       lazy={true}
@@ -162,9 +109,9 @@ export default function Home() {
        
 
     </Swiper>
-    </div>
+    </div> */}
 
-        <div className="HomeProjects">
+        {/* <div className="HomeProjects">
       <h1>OUR PORTFOLIO</h1>
  <Swiper
       cssMode={true}
@@ -217,14 +164,14 @@ export default function Home() {
       
 
     </Swiper>
-    </div>
+    </div> */}
 
 
-    <div className="HomePEWSection">
+    {/* <div className="HomePEWSection">
       <img src="/assets/PEW.png" alt="PRE-ENGINEERING BUILDINGS" />
       <div className="HomwPEWContent">
         {/* <h1>PRE-ENGINEERING <br/>BUILDING</h1> */}
-        <h1>Pre-Engineered Building (PEB) Solutions</h1>
+        {/* <h1>Pre-Engineered Building (PEB) Solutions</h1>
         <h2>Smart Structures. Fast Execution. Long-Term Reliability.</h2>
         <p>At Nean Industries, we bring precision engineering and modern construction together with our <b>Pre-Engineered Building (PEB) solutions</b> a perfect blend of speed, strength, and sustainability. Designed for quick deployment and structural efficiency, our PEB structures are ideal for <b>industrial sheds, warehouses, manufacturing plants, logistics hubs, and commercial spaces.</b>
         <br />
@@ -232,10 +179,10 @@ export default function Home() {
         With in-house fabrication, CNC-enabled production lines, and expert structural engineers, we deliver <b>custom-designed PEBs</b> that meet exact client specifications while ensuring <b>durability, scalability, and cost-effectiveness.</b> From concept to commissioning, Nean Industries is your trusted partner for turnkey steel building solutions that stand the test of time.
         </p>
 
-      </div>
-    </div>
+      </div> */}
+    {/* </div> */}
 
-    <div className="HomeWork">
+    {/* <div className="HomeWork">
       <h1>Why work with us</h1>
 
       <div className="WorkGrid">
@@ -247,10 +194,10 @@ export default function Home() {
         ))}
        
       </div>
-    </div>
+    </div> */}
 
 
-    <div className="ServicesHome">
+    {/* <div className="ServicesHome">
       <img src="/assets/ServicesHome.png" alt="NeAn Industries Pvt Ltd" />
 
       <div className="Div1">
@@ -269,9 +216,9 @@ export default function Home() {
              empowering industries and exceeding customer expectations at every stage.
         </p>
       </div>
-    </div>
+    </div> */}
 
-    <div className="TeamSection">
+    {/* <div className="TeamSection">
       <h1>Meet Our Team</h1>
 
       <div className="TeamGrid">
@@ -297,10 +244,10 @@ export default function Home() {
 
       </div>
       
-    </div>
+    </div> */}
 
 
-    <div className="ClientSection">
+    {/* <div className="ClientSection">
       <h1>Client Reviews</h1>
 
       <div className="ClientTestimonialCards">
@@ -317,7 +264,7 @@ export default function Home() {
           <p>--Jean and Julian Marsh</p>
         </div>
       </div>
-    </div>
+    </div> */}
 </section>
 </>
   )

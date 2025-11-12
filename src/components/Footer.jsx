@@ -24,8 +24,7 @@ export default function Footer() {
             <div className="Address">
                 <a href="http://" target="_blank">
                 <address>
-                    123 Anywhere St.,<br/>
-                    Any City, ST 1234
+                  Plot No. 1,2,3 & 4, Phase-V, Industrial Park, Cherlapally, Hyderabad, Telangana 500051
                 </address>
                 </a>
             </div>

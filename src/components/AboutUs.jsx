@@ -1,5 +1,8 @@
-import {ClientSered,FocusData} from "../Data";
-
+import {ClientSered,FocusData,TeamNamesData} from "../Data";
+import { RiCameraLensFill } from "react-icons/ri";
+import { AiFillProduct } from "react-icons/ai";
+import { FaArrowRightLong } from "react-icons/fa6";
+import BrandScroll from "./BrandScroll";
 export default function AboutUs() {
   return (
     <>
@@ -8,17 +11,24 @@ export default function AboutUs() {
 
         <div className="Overmission">
             <div className="AboutUSiNTRO">
-            <h1>About Our<br/> Organization</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima quis fuga reiciendis, autem deserunt porro! Rerum eum doloribus et quis odit molestiae, dolorum vitae ut, libero, accusantium ab minima!</p>
+
+            <h1 className="Ext">Our <h1 className="Red">Story</h1></h1>
+            <h6>From a Garage to Greatness</h6>
+            
+            <p >What began in a modest garage in 2002 has today evolved into <strong className="Red st">NeAn;</strong> trusted, customer-centric, ISO 9001:2008 certified company located in the heart of <strong className="Red st">Cherlapally Industrial Park, Hyderabad.</strong> Over the decades, our journey has been driven by a simple philosophy: start with what’s necessary, master what’s possible, and then deliver the impossible.<br/>
+Spread across <strong className="Red st">55,000 sq. ft.</strong>, powered with <strong className="Red st">250 HP backup systems,</strong> and equipped with cutting-edge technology, NeAn has grown into a brand synonymous with <strong className="Red st">quality, innovation, and reliability</strong> in India’s manufacturing landscape.
+</p>
             </div>
             <div className="OverMissionGrid">
                 <div className="div1">
+                  <RiCameraLensFill className="MissionIcon"/>
                     <h1>Our Mission</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic ipsum natus soluta esse dicta et doloribus totam, facere culpa dignissimos ea dolorum, porro neque, numquam iusto atque magni quidem?</p>
+                    <p>To deliver quality conveyor systems, sub-assemblies, and custom-engineered equipment with honesty, innovation, and reliability, ensuring on-time delivery, every time.</p>
                 </div>
                 <div className="div2">
+                  <AiFillProduct className="MissionIcon"/>
                     <h1>Our Vision</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime praesentium assumenda sit ullam odit perspiciatis ratione incidunt optio obcaecati quia, molestiae ea earum consequuntur quasi aperiam atque sed! Labore, magnam.</p>
+                    <p>To achieve industrial leadership by combining innovation, technology, and excellence, transforming possibilities into lasting realities for industries worldwide.</p>
                 </div>
             </div>
 
@@ -36,14 +46,22 @@ export default function AboutUs() {
       </video>
 
                 <div className="CEOContent">
-                    <h1>Foreword</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reiciendis animi voluptate quaerat obcaecati hic eaque. Tenetur eveniet quidem ducimus nam voluptate. Accusamus officia magni dolorum nulla deserunt, dicta eaque! <br /><br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, facere! Fuga dolore obcaecati ducimus, rem reprehenderit, sit voluptatem doloremque ex iure, dolorem magni illo voluptate quisquam maxime quia aspernatur deleniti! <br /><br />
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates aliquam dolor molestias! Aperiam animi atque quidem, fugiat sint eos expedita blanditiis ut fuga placeat porro sequi dignissimos laborum eum earum!</p>
+                    <h1>What We Do:</h1>
+                    <p>At Hi-Tech, we design and manufacture <strong className="Red st">bulk and unit handling conveyor sub-assemblies, rollers, idler frames, pulleys, drums, skirt boards, scrapers, hoods, spares, and accessories.</strong> Our products are trusted by <strong className="Red st"> OEMs and industries spanning Mining, Steel, Fertilizers, Power, Cement, Chemicals, Paper, Infrastructure, and Packaging.</strong><br/>
+Every solution is built to <strong className="Red st">Indian and International standards,</strong> with customized <p className="Red">designs and innovative engineering</p> that address unique customer needs, making customization our <strong className="Red st">signature strength.</strong>
+</p>
                 </div>
             </div>
+
         </div>
 
+      
+
+
+<div className="StrenthSection">
+  <h1>Our <strong className="Red st">Strenth</strong></h1>
+  <img src="/assets/StrengthImg.png" alt="Our Strength" />
+</div>
 
         {/* <div className="NetworkSection">
           <h1>Our <p>Growing</p>network</h1>
@@ -59,6 +77,7 @@ export default function AboutUs() {
         </div> */}
 
         <div className="Servedsection">
+          <FaArrowRightLong className="ServedIcon"/>
           <div className="ContentText">
             <h1>Our Impact</h1>
             <p>Turning insights into action has driven our impact on clients and communities over the years.</p>
@@ -77,32 +96,36 @@ export default function AboutUs() {
         </div>
 
 
-        {/* <div className="ProjectAboutSection">
-          <h1>Our Projects</h1>
-
-        </div> */}
-
-
-        <div className="NextFocusSection">
-          <div className="Div1">
-            <h1>Our Next Focus</h1>
-            <img src="/assets/focus.png" alt="Nean Industries Pvt Ltd" />
-          </div>
-          <div className="Div2">
-            <ul>
-              {FocusData.map((i)=>(
-               <li key={i.id}>{i.name}</li>  
-              ))}
-            </ul>
-          </div>
+        <div className="ProjectAboutSection">
+          {/* <h1>Our <strong className="Red st">Clients</strong></h1> */}
+<BrandScroll/>
         </div>
 
-        {/* <div className="ClientDataAbout">
-          <h1>As Seen On</h1>
-          <div className="Div1">
 
-          </div>
-        </div> */}
+<div className="OurEdgeSection">
+  <div className="OurEdgeSectionDiv">
+  <h1>Our Edge</h1>
+  <p>Behind every machine is our highly trained, experienced, and motivated team of professionals who ensure that process excellence, product precision, and after-sales service remain uncompromised.<br/>
+Our unwavering focus on customer satisfaction and continuous improvement has made NeAn “The Brand of Customer’s Choice” in the manufacturing sector.
+</p>
+
+<em>Engineering Strength. Delivering Precision. Building Trust.</em>
+</div>
+</div>
+
+
+<div className="AboutUsTeamSection">
+  <h1>Our <strong className="Red st">Experts</strong></h1>
+  <div className="AboutUsTeamGrid">
+   {TeamNamesData.map((i)=>(
+    <div className="Card">
+      <img src={i.img} alt={i.name} />
+      <h1>{i.name}</h1>
+      <p>{i.txt}</p>
+    </div>
+    ))}
+  </div>
+</div>
 
 
        

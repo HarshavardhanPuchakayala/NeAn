@@ -23,6 +23,7 @@ const ScrollTop = lazy(()=>import("./components/ScrollTop"));
 const Loading =lazy(()=>import("./components/Loading"));
 
 import "./App.css";
+import "./Mobile.css"
 export default function App() {
   return (
     <>
