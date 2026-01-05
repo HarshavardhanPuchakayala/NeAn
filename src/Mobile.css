@@ -1,0 +1,1415 @@
+/* Extra small: up to 479px */
+@media (max-width: 479px) {
+    
+
+.slider-container {
+  height: 70vh;
+}
+
+
+.HomeSlider_Con{
+
+    top: 16%;
+    left:2.5%;
+    width: 90%;
+}
+.HomeSlider_Con h1{
+    font-size: 3rem;
+}
+.HomeSlider_Con  h2{
+    line-height: 1.6rem;
+}
+
+.HomeSlider_btn{
+    width: 90%;
+    margin: 0.5rem 0;
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+.HomeSlider_btn a{
+    width: 100%;
+    font-size: 1rem;
+    background-color: var(--secondColor);
+    color: var(--heading);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+     border-radius: 6px;
+     text-align: center;
+    font-weight: 600;
+}
+.imgTop_btn{
+    background-color: var(--secondColor);
+    color: var(--SubColor);
+   
+}
+
+
+/* Footer */
+
+
+.footer_Div{
+    height:0;
+}
+
+.FooterSub{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.FooterTop{
+    flex-direction: column;
+    padding: 2rem 0 0 0;
+    align-items: center;
+}
+.FooterTop img{
+    width: 50%;
+    height: 100%;
+    margin: 2% auto 0.5rem 0;
+}
+.FooterTop h1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.FooterBottom{
+ flex-direction: column;
+align-items: start;
+ justify-content: space-between;
+ padding: 0.5rem 0;
+}
+.FooterBottom .div1{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 0.75rem;
+  gap: 0.25rem;
+}
+.FooterBottom h1{
+    font-size: 1.25rem;
+}
+.FooterLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.FooterLinks a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.FooterBottom .Address{
+    display: flex;
+    gap: 2rem;
+}
+.FooterBottom .Address a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+.FooterBottom .div2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+   
+}
+.heightheight{
+    height: 10vh;
+}
+.div2898{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.CopyrightsDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    gap: 0.5rem;
+    text-align: center;
+    color: white;
+}
+
+.Editor{
+    display: inline;
+}
+.Editor a{
+    font-size: 1rem;
+    color: var(--SubColor);
+    text-decoration: underline;
+}
+
+
+/*Home Page*/
+
+.HomeAbout{
+    flex-direction: column;
+    width: 90%;
+    padding: 2rem 0;
+    gap: 0.5rem;
+    align-items: start;
+}
+
+.HomeAbout h1{
+    font-size: 2rem;
+}
+
+.HomeAbout p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 100%;
+}
+
+    /*HomeProjectsSlide*/
+.HomeProjects{
+    padding: 2rem;
+}
+.HomeProjects h1{
+    font-size: 3rem;
+}
+
+.HomeProjectsSlide{
+    margin-top: 2rem;
+
+}
+
+.HomeProjectsSlide .SrvImg{
+    height: 40vh;
+}
+
+/*Home new edits*/
+
+.NeanProductsVASection{
+  padding: 2rem;
+}
+.NeanProductsVASection h1{
+  font-size: 2rem;
+  width: 100%;
+}
+.div321{
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+.NeanProductsVASection .div11{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.NeanProductsVASection .div11 img{
+  width: 90px;
+}
+
+.NeanProductsVASection .div11 p{
+  font-size: 1rem;
+}
+
+
+.OurFeaturesSection{
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.OurFeaturesSection h4{
+  font-size: 1.5rem;
+}
+
+
+.OurFeaturesSection h1{
+  font-size: 2.5rem;
+  padding-top: 0.5rem;
+}
+
+
+.FeaturesSection{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.div1222{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  align-items: center;
+  gap: 1rem;
+}
+.div1222 img{
+  width: 15%;
+}
+.div12222{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.25rem;
+}
+.div12222 h4{
+  font-size: 1.5rem;
+}
+.div12222 p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*==== AboutUs ======*/
+.st{
+  font-weight: 500;
+}
+
+.AboutUsSection .AboutUsBanner{
+  height: 50dvh;
+}
+
+.AboutUSiNTRO{
+  width: 90%;
+}
+.AboutUSiNTRO h1{
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.AboutUSiNTRO h6{
+  font-size: 1.6rem;
+}
+.AboutUSiNTRO p{
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+}
+
+.OverMissionGrid{
+  flex-direction: column;
+}
+
+.OverMissionGrid .div1{
+  padding: 2rem;
+}
+.OverMissionGrid .div2{
+   padding: 2rem;
+}
+.MissionIcon{
+  font-size: 3rem;
+}
+.OverMissionGrid .div1 h1,.OverMissionGrid .div2 h1{
+  font-size: 2.5rem;
+}
+
+.OverMissionGrid .div1 p,.OverMissionGrid .div2 p{
+  font-size: 1rem;
+  width: 90%;
+}
+
+
+
+.CEOIntroGrid{
+  flex-direction: column;
+  padding:1rem;
+  gap: 0rem;
+
+}
+
+.CEOVideo{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.CEOContent{
+    padding: 0;
+  margin: 0;
+}
+
+.CEOContent h1{
+  font-size: 0rem;
+  padding: 0;
+  margin: 0;
+  font-family: var(--heading);
+}
+
+.CEOContent p{
+  font-size: 1.1rem;
+  font-family: var(--subHeading);
+}
+
+
+.AboutUsTeamSection{
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.AboutUsTeamGrid{
+  grid-template-columns: 1fr;
+  width: 90%;
+}
+
+
+
+/*Idlers*/
+
+.ANeanBanner{
+ height: 40dvh;
+}
+
+.ANeanBanner p{
+ font-size: 3rem;
+}
+
+.ANeanContentDiv{
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  gap: 1rem;
+}
+.ANeanReverse{
+  grid-template-columns: 1fr;
+}
+.ANeanContentDiv .ANeanCardss{
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+
+
+.ANeanSpecificationsDiv{
+  width: 90%;
+  margin: 2rem auto;
+}
+.ANeanSpecificationsDiv h1{
+  font-size: 2rem;
+}
+
+.ANeanSpecifc {
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+}
+
+
+
+
+.ANeanGalleryDiv{
+  padding: 2rem 0;
+}
+.ANeanGalleryDiv h1{
+  font-size:3rem;
+  padding-left: 3rem;
+}
+
+.ANeanGallery{
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ANeanGallery img{
+  height: 40dvh;
+}
+
+.QW h1{
+  color: var(--secondColor);
+  font-size: 4rem;
+}
+
+
+
+
+.OurProductsGrid h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.OurProductsGrid .Div1 .Div2 img{
+  height: 30dvh;
+}
+
+
+
+
+
+
+/**==PEB==**/
+
+
+.PEBsection{
+
+}
+.PEBsection .PEBBanner{
+  height: 40dvh;
+}
+.PEBAboutusDiv{
+  grid-template-columns: 1fr;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.PEBAboutusDiv img{
+  height: 40dvh;
+}
+
+.PEBAboutusDiv .Content h1{
+  font-size: 2.5rem;
+}
+.PEBAboutusDiv .Content p{
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+.PebComponets{
+ grid-template-columns: 1fr;
+  width: 90%;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.PebComponets h1{
+  font-size: 2.5rem;
+}
+
+.ComponetsDiv{
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+}
+
+.ComponetsDiv .CCard{
+  padding: 0.5rem 1rem;
+  text-shadow: 0 1 black;
+}
+
+.ComponetsDiv .CCard h6{
+  font-size: 1.5rem;
+}
+/* PortfolioMenu */
+
+.PortfolioBanner{
+  padding: 4rem 0;
+    height: 30dvh;
+}
+.PortfolioBanner h1{
+  font-size: 2.5rem;
+}
+
+.PortfolioHeading{
+    display: flex;
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.PortfolioHeading h1{
+    font-size: 2rem;
+}
+
+.MachinerySection{
+  width: 90%;
+  margin: 2rem auto;
+}
+.MachinerySection h1{
+ font-size: 2.5rem;
+}
+
+.MachinerySection p{
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.MachinerySection ul{
+  font-size: 1.1rem;
+  margin-left: 2rem;
+
+}
+.MachinerySection ul li{
+  padding-bottom: 0.8rem;
+}
+
+
+.PortfolioMenu{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.PortfolioMenu img{
+  height: 50dvh;
+}
+
+
+
+/*Contact Us Page*/
+
+.ContactUsSection{
+    padding-bottom: 4rem;
+}
+
+.ContactUsSection .ContactBanner{
+    height: 30dvh;
+    
+}
+
+.ContactUsSection .ContactBanner h1{
+    font-size: 2rem;
+}
+
+.ContactUsSection .GetInTouch{
+    font-size: 2.5rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+.FormGrid{
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+form{
+    flex-direction: column;
+    gap: 1rem;
+    width: 94%;
+}
+
+.Form{
+    flex-direction: column;
+    gap: 1rem;
+}
+form input{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+select.select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+select.select option {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+
+form textarea{
+    height: 20dvh;
+}
+
+
+form button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.FormContent{
+
+}
+
+.FormContent h1{
+    font-size: 2.5rem;
+}
+
+.FormContent p{
+  width: 95%;
+  font-size: 1.1rem;
+}
+
+.ContactDetails{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding-top: 1rem;
+   
+}
+
+
+.ContactDetails .Div1{
+  align-items: start;
+}
+
+.ContactDetails .Div1 .FormIcon{
+    font-size: 1.5rem;
+}
+
+.ContactDetails .Div1 .Div1Content{
+
+    align-items: start;
+    gap: 0.5rem;
+   
+}
+
+.ContactDetails .Div1 h6{
+    font-size: 1.5rem;
+    margin: 0;
+    padding:0;
+}
+.ContactDetails .Div1 .Div1Content p{
+    font-size: 1.2rem;
+      margin: 0;
+    padding:0;
+}
+
+
+
+/* PortfolioMenu */
+
+
+.PortfolioMenu{
+  grid-template-columns: 1fr;
+}
+
+
+.PortfolioBanner{
+    height: 30dvh;
+}
+
+
+
+.PortfolioHeading{
+    flex-direction: column;
+    padding: 1rem 0;
+    width: 90%;
+    gap: 0rem;
+}
+
+.PortfolioHeading h1{
+    font-size: 2rem;
+}
+.PortfolioHeading p{
+    font-size: 1.2rem;
+    width: 100%;
+    line-height: 1.8rem;
+    color: var(--secondColor);
+    font-weight: 600;
+}
+
+
+
+
+
+.MachinerySection{
+  width: 90%;
+  margin: 0 auto;
+}
+.MachinerySection h1{
+ font-size: 2rem;
+ font-weight: 800;
+}
+
+.MachinerySection p{
+  font-size: 1.2rem;
+}
+.MachinerySection ul{
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  list-style-type: circle;
+
+}
+.MachinerySection ul li{
+  padding: 0.5rem 0;
+  font-family: var(--subHeading);
+}
+
+}
+
+/* Small: 480px – 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+  .slider-container {
+  height: 50vh;
+}
+
+
+.HomeSlider_Con{
+
+    top: 16%;
+    left:2.5%;
+    width: 90%;
+}
+.HomeSlider_Con h1{
+    font-size: 3rem;
+}
+.HomeSlider_Con  h2{
+    line-height: 1.6rem;
+}
+
+.HomeSlider_btn{
+    width: 90%;
+    margin: 0.5rem 0;
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+.HomeSlider_btn a{
+    width: 100%;
+    font-size: 1rem;
+    background-color: var(--secondColor);
+    color: var(--heading);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+     border-radius: 6px;
+     text-align: center;
+    font-weight: 600;
+}
+.imgTop_btn{
+    background-color: var(--secondColor);
+    color: var(--SubColor);
+   
+}
+
+
+/* Footer */
+
+
+.footer_Div{
+    height:0;
+}
+
+.FooterSub{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.FooterTop{
+    flex-direction: column;
+    padding: 2rem 0 0 0;
+    align-items: center;
+}
+.FooterTop img{
+    width: 50%;
+    height: 100%;
+    margin: 2% auto 0.5rem 0;
+}
+.FooterTop h1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.FooterBottom{
+ flex-direction: column;
+align-items: start;
+ justify-content: space-between;
+ padding: 0.5rem 0;
+}
+.FooterBottom .div1{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 0.75rem;
+  gap: 0.25rem;
+}
+.FooterBottom h1{
+    font-size: 1.25rem;
+}
+.FooterLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.FooterLinks a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.FooterBottom .Address{
+    display: flex;
+    gap: 2rem;
+}
+.FooterBottom .Address a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+.FooterBottom .div2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+   
+}
+.heightheight{
+    height: 10vh;
+}
+.div2898{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.CopyrightsDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    gap: 0.5rem;
+    text-align: center;
+    color: white;
+}
+
+.Editor{
+    display: inline;
+}
+.Editor a{
+    font-size: 1rem;
+    color: var(--SubColor);
+    text-decoration: underline;
+}
+
+
+/*Home Page*/
+
+.HomeAbout{
+    flex-direction: column;
+    width: 90%;
+    padding: 2rem 0;
+    gap: 0.5rem;
+    align-items: start;
+}
+
+.HomeAbout h1{
+    font-size: 2rem;
+}
+
+.HomeAbout p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 100%;
+}
+
+    /*HomeProjectsSlide*/
+.HomeProjects{
+    padding: 2rem;
+}
+.HomeProjects h1{
+    font-size: 3rem;
+}
+
+.HomeProjectsSlide{
+    margin-top: 2rem;
+
+}
+
+.HomeProjectsSlide .SrvImg{
+    height: 40vh;
+}
+
+/*Home new edits*/
+
+.NeanProductsVASection{
+  padding: 2rem;
+}
+.NeanProductsVASection h1{
+  font-size: 2rem;
+  width: 100%;
+}
+.div321{
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+.NeanProductsVASection .div11{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.NeanProductsVASection .div11 img{
+  width: 90px;
+}
+
+.NeanProductsVASection .div11 p{
+  font-size: 1rem;
+}
+
+
+.OurFeaturesSection{
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.OurFeaturesSection h4{
+  font-size: 1.5rem;
+}
+
+
+.OurFeaturesSection h1{
+  font-size: 2.5rem;
+  padding-top: 0.5rem;
+}
+
+
+.FeaturesSection{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+  align-items: center;
+}
+.div1222{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  align-items: center;
+  gap: 1rem;
+}
+.div1222 img{
+  width: 15%;
+}
+.div12222{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.25rem;
+}
+.div12222 h4{
+  font-size: 1.5rem;
+}
+.div12222 p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*==== AboutUs ======*/
+.st{
+  font-weight: 500;
+}
+
+.AboutUsSection .AboutUsBanner{
+  height: 50dvh;
+}
+
+.AboutUSiNTRO{
+  width: 90%;
+}
+.AboutUSiNTRO h1{
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.AboutUSiNTRO h6{
+  font-size: 1.6rem;
+}
+.AboutUSiNTRO p{
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+}
+
+.OverMissionGrid{
+  flex-direction: row;
+}
+
+.OverMissionGrid .div1{
+  padding: 2rem;
+}
+.OverMissionGrid .div2{
+   padding: 2rem;
+}
+.MissionIcon{
+  font-size: 3rem;
+}
+.OverMissionGrid .div1 h1,.OverMissionGrid .div2 h1{
+  font-size: 2.5rem;
+}
+
+.OverMissionGrid .div1 p,.OverMissionGrid .div2 p{
+  font-size: 1rem;
+  width: 90%;
+}
+
+
+
+.CEOIntroGrid{
+  flex-direction: column;
+  padding:1rem;
+  gap: 0rem;
+
+}
+
+.CEOVideo{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.CEOContent{
+    padding: 0;
+  margin: 0;
+}
+
+.CEOContent h1{
+  font-size: 0rem;
+  padding: 0;
+  margin: 0;
+  font-family: var(--heading);
+}
+
+.CEOContent p{
+  font-size: 1.1rem;
+  font-family: var(--subHeading);
+}
+
+
+.AboutUsTeamSection{
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.AboutUsTeamGrid{
+  grid-template-columns: 1fr;
+  width: 70%;
+}
+
+
+
+
+/*Idlers*/
+
+.ANeanBanner{
+ height: 40dvh;
+}
+
+.ANeanBanner p{
+ font-size: 3rem;
+}
+
+.ANeanContentDiv{
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  gap: 1rem;
+}
+.ANeanReverse{
+  grid-template-columns: 1fr;
+}
+.ANeanContentDiv .ANeanCardss{
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+
+
+.ANeanSpecificationsDiv{
+  width: 90%;
+  margin: 2rem auto;
+}
+.ANeanSpecificationsDiv h1{
+  font-size: 2rem;
+}
+
+.ANeanSpecifc {
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 1rem;
+}
+
+
+
+
+.ANeanGalleryDiv{
+  padding: 2rem 0;
+}
+.ANeanGalleryDiv h1{
+  font-size:3rem;
+  padding-left: 3rem;
+}
+
+.ANeanGallery{
+  grid-template-columns:repeat(2,1fr);
+  gap: 2rem;
+  
+}
+
+.ANeanGallery img{
+  height: 30dvh;
+}
+
+.QW h1{
+  color: var(--secondColor);
+  font-size: 4rem;
+}
+
+
+
+.OurProductsGrid .Div1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ 
+  gap: 2rem;
+}
+.OurProductsGrid h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.OurProductsGrid .Div1 .Div2 img{
+  height: 20dvh;
+}
+
+
+/* PortfolioMenu */
+
+.PortfolioBanner{
+  padding: 2rem 0;
+  height: 30dvh;
+}
+.PortfolioBanner h1{
+  font-size: 3rem;
+}
+
+.PortfolioHeading{
+    padding: 3rem 0;
+    width: 90%;
+    gap: 2rem;
+}
+
+.PortfolioHeading h1{
+    font-size: 2rem;
+}
+
+.MachinerySection{
+  width: 90%;
+  margin: 1rem auto;
+}
+.MachinerySection h1{
+ font-size: 2rem;
+}
+
+.MachinerySection p{
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.MachinerySection ul{
+  font-size: 1.1rem;
+  margin-left: 2rem;
+
+}
+.MachinerySection ul li{
+  padding-bottom: 0.8rem;
+}
+
+
+.PortfolioMenu{
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.PortfolioMenu img{
+  height: 30dvh;
+}
+
+
+/*Contact Us Page*/
+
+.ContactUsSection{
+    padding-bottom: 4rem;
+}
+
+.ContactUsSection .ContactBanner{
+    height: 40dvh;
+    
+}
+
+.ContactUsSection .ContactBanner h1{
+    font-size: 4rem;
+}
+
+.ContactUsSection .GetInTouch{
+    font-size: 3rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+.FormGrid{
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+form{
+    gap: 1rem;
+}
+
+.Form{
+    flex-direction: row;
+    gap: 1rem;
+}
+form input{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+select.select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+select.select option {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+
+form textarea{
+    height: 20dvh;
+}
+
+
+form button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.FormContent{
+
+}
+
+.FormContent h1{
+    font-size: 2.5rem;
+}
+
+.FormContent p{
+  width: 95%;
+  font-size: 1.1rem;
+}
+
+.ContactDetails{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding-top: 1rem;
+   
+}
+
+
+.ContactDetails .Div1{
+  align-items: start;
+}
+
+.ContactDetails .Div1 .FormIcon{
+    font-size: 1.5rem;
+}
+
+.ContactDetails .Div1 .Div1Content{
+
+    align-items: start;
+    gap: 0.5rem;
+   
+}
+
+.ContactDetails .Div1 h6{
+    font-size: 1.5rem;
+    margin: 0;
+    padding:0;
+}
+.ContactDetails .Div1 .Div1Content p{
+    font-size: 1.2rem;
+      margin: 0;
+    padding:0;
+}
+
+
+/* PortfolioMenu */
+
+
+.PortfolioMenu{
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+.PortfolioBanner{
+    height: 30dvh;
+}
+
+
+
+.PortfolioHeading{
+    flex-direction: column;
+    padding: 1rem 0;
+    width: 90%;
+    gap: 0rem;
+}
+
+.PortfolioHeading h1{
+    font-size: 2rem;
+}
+.PortfolioHeading p{
+    font-size: 1.2rem;
+    width: 100%;
+    line-height: 1.8rem;
+    color: var(--secondColor);
+    font-weight: 600;
+}
+
+
+
+
+
+.MachinerySection{
+  width: 90%;
+  margin: 0 auto;
+}
+.MachinerySection h1{
+ font-size: 2rem;
+ font-weight: 800;
+}
+
+.MachinerySection p{
+  font-size: 1.2rem;
+}
+.MachinerySection ul{
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  list-style-type: circle;
+
+}
+.MachinerySection ul li{
+  padding: 0.5rem 0;
+  font-family: var(--subHeading);
+}
+}

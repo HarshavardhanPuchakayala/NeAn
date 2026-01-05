@@ -1,0 +1,790 @@
+.CAddressDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.CAddressDiv a{
+    color: white;
+    font-family: var(--Hheading);
+    font-size: 1rem;
+}
+.CAddressDiv a strong{
+    font-weight: 900;
+}
+
+.CAddressDiv a p{
+    font-size: 1rem;
+}
+.HomeSlider_Con{
+    position: relative;
+    color:white;
+    top: 15%;
+    left:5%;
+    width: 30%;
+    padding: 1.5rem 2rem;
+}
+.HomeSlider_Con h1{
+    font-size: 3rem;
+    color: var(--secondColor);
+    font-weight: 900;
+}
+.HomeSlider_Con  h2{
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    width: 90%;
+
+
+}
+
+.HomeSlider_btn{
+    width: 90%;
+    margin: 0.5rem 0;
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+.HomeSlider_btn a{
+    width: 100%;
+    font-size: 1rem;
+    background-color: var(--secondColor);
+    color: var(--heading);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+     border-radius: 6px;
+     text-align: center;
+    font-weight: 600;
+}
+.imgTop_btn{
+    background-color: var(--secondColor);
+    color: var(--SubColor);
+   
+}
+
+.HomeSlider_btn a:hover{
+    background-color: transparent;
+    border-color: var(--secondColor);
+    color: var(--secondColor);
+    transform: scale(1.05);
+}
+/* Footer */
+
+footer{
+    background-color: white;
+    color: var(--MainColor);
+    list-style-type: none;
+}
+
+.footer_Div{
+    background-color:var(--secondColor);
+    height:2px;
+}
+
+.FooterSub{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.FooterTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 0 0;
+    align-items: center;
+}
+.FooterTop a img{
+    width: 100%;
+    height: 100%;
+    margin: 5% 0 0 0;
+}
+.FooterTop h1{
+ font-family: var(--heading);
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.FooterBottom{
+ display: flex;
+ align-items: start;
+ justify-content: space-between;
+ font-family: var(--Hheading);
+ padding: 4rem 0;
+}
+.FooterBottom .div1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.FooterBottom h1{
+    color:var(--secondColor);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    font-family: var(--heading);
+}
+.FooterLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.FooterLinks a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.FooterLinks a:hover{
+    text-decoration: underline;
+}
+
+
+.FooterBottom .Address{
+    display: flex;
+    gap: 6rem;
+}
+.FooterBottom .Address a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    font-family: var(--Hheading);
+}
+.FooterBottom .div2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+   
+}
+.FooterBottom .div2 ul li{
+    font-size: 1.1rem;
+    font-family: var(--Hheading);
+    font-weight: 400;
+    color: #333;
+}
+.heightheight{
+    height: 10vh;
+}
+.div2898{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+.div2898 h1{
+    font-family: var(--Hheading);
+    font-weight: 700;
+}
+
+
+.div2898 a{
+    font-family: var(--Hheading);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.CopyrightsDiv{
+    display: flex;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    border-top:2px solid var(--SubColor);
+    background-color: var(--MainColor);
+    color: white;
+}
+
+.Editor{
+    display: inline;
+}
+.Editor a{
+    font-size: 1rem;
+    color: var(--SubColor);
+    text-decoration: underline;
+}
+
+.AddressDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/*Home Page*/
+
+.CEOContent{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.CEOContent h2{
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.CEOContent p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.CEOVideo{
+    height: 50dvh;
+}
+.HomeAbout{
+    width: 80%;
+    padding: 4rem 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+}
+
+.HomeAbout h1{
+  font-family: var(--heading);
+    font-size: 2.5rem;
+    width: 80%;
+}
+
+.HomeAbout p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 60%;
+}
+
+
+
+
+/*HomeProjectsSlide*/
+.HomeProjects{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    padding: 4rem;
+    font-family: var(--Font1);
+}
+.HomeProjects h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--Hheading);
+}
+
+.HomeProjectsSlide{
+    margin-top: 5rem;
+
+}
+
+.HomeProjectsSlide .SrvImg{
+    width: 100%;
+    height: 60vh;
+}
+
+.HomeProjectsSlide .SrvContent h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-family: var(--heading);
+}
+
+
+
+
+
+/*Contact Us Page*/
+
+.ContactUsSection{
+    background-color: var(--MainColor);
+    padding-bottom: 6rem;
+}
+
+.ContactUsSection .ContactBanner{
+    background: url("/assets/ContactUsImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 70% 60%;
+}
+
+.ContactUsSection .ContactBanner h1{
+    font-size: 3rem;
+    font-family: var(--heading);
+    font-weight: 800;
+    color: var(--SubColor);
+    background-color: rgb(0, 0, 0,0.25);
+}
+
+.ContactUsSection .GetInTouch{
+    color: var(--SubColor);
+    font-size: 4rem;
+    font-family: var(--heading);
+    font-weight: 700;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.FormGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: 0 auto;
+    color: var(--SubColor);
+    gap: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Form{
+    display: flex;
+    gap: 1rem;
+}
+form input{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: white;
+    border: none;
+    color: var(--MainColor);
+    border-radius: 0.25rem;
+
+   font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 12px 14px;
+  border: 1.5px solid #cfcfcf;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  transition: 0.3s ease;
+ font-weight: 600;
+
+}
+ 
+select.select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    /* border: 1.5px solid #ccc; */
+    border-radius: 6px;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+       color: var(--MainColor);
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: var(--Hheading);
+}
+
+
+select.select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+
+select.select option {
+    padding: 10px;
+    font-size: 1.2rem;
+    background: white;
+    color: #333;
+}
+
+
+select.select option:hover {
+    background: #e8e8e8;
+}
+
+
+form textarea{
+    background-color: white;
+    border: none;
+    border-radius: 0.25rem;
+    resize: none;
+    height: 20dvh;
+
+      font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 12px 14px;
+  border: 1.5px solid #cfcfcf;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+form input::placeholder,form textarea::placeholder{
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--MainColor);
+    font-family: var(--heading);
+}
+
+form button{
+    margin: 0 auto 0 0;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+.FormContent h1{
+    font-size: 2.5rem;
+    font-family: var(--heading);
+    position: relative;
+    line-height: 4rem;
+}
+.FormContent h1::after{
+    content: "";
+    width: 4rem;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: 0.25rem;
+    bottom: 0;
+
+}
+
+.FormContent p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 1rem 0;
+    font-family:var(--Font1)
+}
+
+.ContactDetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    row-gap: 4rem;
+    align-items: center;
+    padding-top: 1rem;
+   
+}
+
+
+.ContactDetails .Div1{
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+
+.ContactDetails .Div1 .FormIcon{
+    font-size: 1.5rem;
+}
+.ContactDetails .Div1 .FormIcons{
+    font-size: 4rem;
+}
+.ContactDetails .Div1 .Div1Content{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+   
+}
+
+.ContactDetails .Div1 h6{
+    font-size: 1.5rem;
+    margin: 0;
+    padding:0;
+}
+.ContactDetails .Div1 .Div1Content a p{
+    font-size: 1.2rem;
+      margin: 0;
+      color: white;
+
+    padding:0;
+}
+
+/* Wrapper */
+.Div1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+/* Remove link underline */
+.LinkWrap {
+  text-decoration: none;
+}
+
+/* Product Card */
+.Div2 {
+  background: var(--MainColor);
+  color: white;
+  border: 1px solid var(--SubColor);
+  border-radius: 12px;
+  width: 320px;
+  padding: 1rem;
+  overflow: hidden;
+
+  /* Animation */
+  transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+/* Image */
+.Div2 img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.35s ease;
+}
+
+/* Paragraph */
+.Div2 p {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Title */
+.Div2 h3 {
+  margin: 0 0 10px 0;
+  font-family: var(--heading);
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+
+.Div2:hover img {
+  transform: scale(1.07); 
+}
+
+
+
+
+
+
+
+/* PortfolioMenu */
+
+
+.PortfolioMenu{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  gap: 2rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.PortfolioMenu img{
+  width: 100%;
+  height: 40dvh;
+}
+
+
+.PortfolioBanner{
+    background: url("/assets/PortfolioBanner.png") no-repeat center;
+    padding: 4rem 0;
+    height: 40dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PortfolioBanner h1{
+    font-size: 3rem;
+    color: var(--SubColor);
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    font-family: var(--heading);
+}
+
+
+.PortfolioHeading{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    width: 90%;
+    background-color: transparent;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 0rem;
+}
+
+.PortfolioHeading h1{
+    font-size: 2.5rem;
+    font-family: var(--heading);
+}
+.PortfolioHeading p{
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 1.8rem;
+    color: var(--secondColor);
+    font-weight: 500;
+}
+
+.Portfolio{
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+}
+.PortfolioGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+.PortfolioGrid h1{
+    font-size: 3rem;
+    font-family: var(--heading);
+}
+.PortfolioImgsGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.PortfolioImgsGrid img{
+    width: 360px;
+    height: 100%;
+}
+
+.MachinerySection{
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+.MachinerySection h1{
+ font-size: 3rem;
+ font-weight: 600;
+ font-family: var(--subHeading);
+ margin: 1rem 0;
+}
+
+.MachinerySection p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: var(--body);
+}
+.MachinerySection ul{
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  list-style-type: circle;
+
+}
+.MachinerySection ul li{
+  padding: 0.5rem 0;
+  font-family: var(--subHeading);
+}
+
+
+/*Products Section*/
+
+.ProductsBanner{
+    background: url("/assets/ProductsBanner.png") no-repeat center;
+    height: 40dvh;
+    padding: 4rem 0;
+}
+
+.ProductsIntro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    padding:3rem 5rem;
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+}
+
+.ProductsIntroDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ProductsIntroDiv p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+
+}
+.ProductsIntro img{
+    width: 100%;
+}
+
+.OurProductsGrid{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.OurProductsGrid h1{
+    font-size: 2rem;
+    font-family: var(--heading);
+    padding: 1rem 0 2rem 0;
+}
+
+.OurProductsGrid .Div1{
+    display: flex;
+}
+.OurProductsGrid .Div2{
+    display: flex;
+    flex-direction: column;
+}
+.OurProductsGrid .Div2 img{
+    width: 100%;
+}
+.OurProductsGrid .Div2 p{
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+    font-weight: 600;
+}
+.OurProductsGrid .Div2 h3{
+    font-family: var(--Hheading);
+}
+.IdlersIntro{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    padding: 3rem 2rem;
+    background-color: var(--MainColor);
+    color: var(--SubColor);
+    gap: 3rem;
+}
+.IdlersIntro img{
+    width: 100%;
+}
+.IdlersIntro .Context{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.reverse{
+    background-color: var(--SubColor);
+    color: var(--MainColor);
+}
+
+
+.Div1Content .CIcon{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+
+.navbar {
+  background: #fcfdf9;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  width: 70%;
+}
+
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-menu li a,
+.nav-menu li span {
+  color: #1d2666;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-right: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.25s ease;
+
+}
+
+.nav-menu li a:hover,
+.nav-menu li span:hover {
+  color: #bc3638;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background: #fcfdf9;
+  min-width: 240px;
+  display: none;
+  flex-direction: column;
+  border-radius: 6px;
+  z-index: 999999;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+  color: #1d2666;
+  font-weight: 600;
+}
+
+.dropdown-item:hover {
+  background: #fcfdf9;
+}
+
+/* =========================
+   NESTED DROPDOWN
+========================= */
+.nested {
+  position: relative;
+}
+
+.nested > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nested-menu {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  background: #fcfdf9;
+  min-width: 240px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.nested-menu.show {
+  display: flex;
+}
+
+.nested-menu a {
+  padding: 12px 16px;
+  color: #1d2666;
+  font-weight: 600;
+}
+
+.nested-menu a:hover {
+  background: #1d2666;
+  color: #ffffff;
+}
+
+/* =========================
+   HAMBURGER
+========================= */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 26px;
+  height: 3px;
+  background: #1d2666;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    z-index: 99999;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    background: #fcfdf9;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    display: none;
+    padding: 1rem 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu li {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .nav-menu li a,
+  .nav-menu li span {
+    font-size: 1.05rem;
+    width: 100%;
+    display: block;
+  }
+
+  /* Stack dropdowns */
+  .dropdown-menu,
+  .nested-menu {
+    position: static;
+    min-width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .nested-menu {
+    padding-left: 1.2rem;
+  }
+}
+
+/* =========================
+   SMALL DEVICES
+========================= */
+@media (max-width: 480px) {
+  .logo {
+    width: 150px;
+  }
+
+  .nav-menu li a,
+  .nav-menu li span {
+    font-size: 1rem;
+  }
+}

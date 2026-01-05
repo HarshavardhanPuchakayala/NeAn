@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: "garet-bold";
+  src: url("/public/assets/garet-bold.woff2") format("woff2"),
+       url("/public/assets/garet-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+:root{
+  --MainColor:#1d2666;
+  /* --MainColor:#003049; */
+  --SubColor:#fcfdf9;
+  --heading:"garet-bold";
+  --Hheading:"Poppins", sans-serif;
+  --subHeading:"Open Sans", sans-serif;
+  --body:"Red Hat Display", sans-serif;
+  --secondColor:#bc3638;
+  /* --secondColor:#780000; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: var(--body);
+  box-sizing: border-box; 
+  list-style: none;
+}
+a{
+  color: black;
+}
+.Red{
+  color: #780000;
+}
+body{
+  background-color: var(--SubColor);
+  color: var(--MainColor);
+  font-family: var(--PrimaryFont);  
+}
+
+
+.HITECH{
+  color: var(--secondColor);
+  font-weight: bold;
+}
+
+
+/* Loader Container */
+.loader-container {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+
+.loader {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  margin:15px auto;
+  position: relative;
+  color: #FFF;
+  left: -100px;
+  box-sizing: border-box;
+  animation: shadowRolling 2s linear infinite;
+}
+
+@keyframes shadowRolling {
+  0% {
+    box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+  12% {
+    box-shadow: 100px 0 white, 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+  25% {
+    box-shadow: 110px 0 white, 100px 0 white, 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+  36% {
+    box-shadow: 120px 0 white, 110px 0 white, 100px 0 white, 0px 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 130px 0 white, 120px 0 white, 110px 0 white, 100px 0 white;
+  }
+  62% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 white, 120px 0 white, 110px 0 white;
+  }
+  75% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 white, 120px 0 white;
+  }
+  87% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 white;
+  }
+  100% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+  }
+}
+
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.slider-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+.slider-content h1{
+  font-family: var(--heading);
+  font-size: 3rem;
+  width: 60%;
+  margin: 0 auto
+}
+
+.slider-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+
+
+
+
+
+/*==== AboutUs ======*/
+.st{
+  font-weight: 500;
+}
+
+.AboutUsSection{
+
+}
+
+.AboutUsSection .AboutUsBanner{
+  background: url("../public/assets/Aboutus.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70dvh;
+}
+
+.AboutUSiNTRO{
+  width: 90%;
+  margin: 2rem auto;
+}
+.AboutUSiNTRO h1{
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-family: var(--heading);
+}
+.Ext{
+  display: flex;
+  gap: 0.5rem;
+}
+.AboutUSiNTRO h6{
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: var(--subHeading);
+}
+.AboutUSiNTRO p{
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  font-family: var(--body);
+}
+
+.OverMissionGrid{
+  display: flex;
+}
+
+.OverMissionGrid .div1{
+  background-color: #669bbc;
+  padding: 3rem;
+  text-align: center;
+}
+.OverMissionGrid .div2{
+  background-color: #003049;
+  color: white;
+   padding: 3rem;
+   text-align: center;
+}
+.MissionIcon{
+  font-size: 3rem;
+}
+.OverMissionGrid .div1 h1,.OverMissionGrid .div2 h1{
+  font-size: 2.5rem;
+  font-family: var(--heading);
+}
+
+.OverMissionGrid .div1 p,.OverMissionGrid .div2 p{
+  font-size: 1.1rem;
+  width: 60%;
+  margin: 0 auto;
+  font-family: var(--body);
+}
+
+
+
+.CEOIntroGrid{
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+
+}
+
+.CEOVideo{
+  width: 50%;
+}
+
+.CEOContent{
+
+}
+
+.CEOContent h1{
+  font-size: 3rem;
+  font-family:var(--bodyfont);
+}
+
+.CEOContent p{
+  font-size: 1.1rem;
+  font-family: var(--subHeading);
+}
+
+
+
+.ProjectAboutSection{
+  width: 90%;
+  margin: 2rem auto;
+
+}
+.ProjectAboutSection h1{
+  font-size: 2.5rem;
+  font-family: var(--heading);
+}
+
+
+.AboutUsTeamSection{
+  width: 90%;
+  margin: 2rem auto;
+}
+.AboutUsTeamSection h1{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-family: var(--heading);
+}
+.AboutUsTeamGrid{
+   display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.AboutUsTeamGrid .Card{
+  text-align: center;
+}
+.AboutUsTeamGrid .Card img{
+  width: 100%;
+  height: 30dvh;
+  border-radius: 0.75rem;
+}
+.AboutUsTeamGrid .Card h1{
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
+  font-family: var(--heading);
+}
+
+
+/**==PEB==**/
+
+
+
+.PEBsection .PEBBanner{
+  background-image: url("/assets/PEBC.jpg");
+  height: 50dvh;
+  background-position:center;
+  background-size: cover;
+}
+.PEBAboutusDiv{
+  background-color: var(--MainColor);
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  padding: 3rem 2rem;
+  gap: 2rem;
+}
+
+.PEBAboutusDiv img{
+  object-fit: cover;
+  width: 100%;
+  height: 70dvh;
+}
+
+.PEBAboutusDiv .Content{
+  color: white;
+}
+.PEBAboutusDiv .Content h1{
+  font-size: 3rem;
+  font-family: var(--Hheading);
+}
+.PEBAboutusDiv .Content p{
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  padding-top: 1rem;
+}
+
+
+
+.PEBProcess{
+  padding: 2rem 1rem;
+}
+.PEBProcess h1{
+  font-size: 3rem;
+  font-family: var(--heading);
+}
+
+.PEBProcessGrid{
+  display: flex;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+.PEBProcessGrid img{
+  width: 100%;
+}
+.PEBDiv{
+  display: flex;
+  padding-top: 2rem;
+  flex-direction: row-reverse;
+}
+
+.PEBDiv .Extra{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+.PebComponets{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+  gap: 3rem;
+}
+
+.PebComponets h1{
+  font-size: 2.5rem;
+  width: 90%;
+  font-weight: 800;
+}
+
+.ComponetsDiv{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.ComponetsDiv .CCard{
+  padding: 1rem 1.5rem;
+  text-shadow: 0 1 black;
+}
+.ComponetsDiv .CCard img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ComponetsDiv .CCard h6{
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+/*Idlers*/
+.CANeanBanner{
+    background: url("/assets/CCover.jpeg") no-repeat center ;
+  height: 60dvh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CANeanBanner p{
+    font-family: var(--heading);
+  color: white;
+ font-weight: 500;
+ font-size: 4rem;
+ text-transform: uppercase;
+}
+
+
+.WeProduceDiv h1{
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 900;
+  color: var(--secondColor);
+}
+.IANeanBanner{
+    background: url("/assets/IdlerBanner.jpeg") no-repeat center ;
+  height: 60dvh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IANeanBanner p{
+    font-family: var(--heading);
+  color: white;
+ font-weight: 500;
+ font-size: 4rem;
+ text-transform: uppercase;
+}
+.PPANeanBanner{
+    background: url("/assets/PPC.jpg") no-repeat center ;
+  height: 60dvh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PPANeanBanner p{
+    font-family: var(--Hheading);
+  color: white;
+ font-weight: 800;
+ font-size: 4rem;
+ text-transform: uppercase;
+}
+
+.OPANeanBanner{
+    background: url("/assets/OC.jpg") no-repeat center ;
+  height: 60dvh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OPANeanBanner p{
+    font-family: var(--heading);
+  color: white;
+ font-weight: 500;
+ font-size: 4rem;
+ text-transform: uppercase;
+}
+
+.ANeanBanner{
+  background: url("/assets/CCover.jpeg") no-repeat center ;
+  height: 60dvh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ANeanBanner p{
+  font-family: var(--heading);
+  color: white;
+ font-weight: 500;
+ font-size: 4rem;
+ text-transform: uppercase;
+}
+
+.ANeanContentDiv{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 2rem;
+  align-items: center;
+  gap: 2rem;
+}
+.ANeanReverse{
+  grid-template-columns: 1fr 2fr;
+}
+.ANeanContentDiv .ANeanCardss{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.ANeanContentDiv .ANeanCardss h1{
+  font-size: 2rem;
+  color: var(--secondColor);
+  font-family: var(--Hheading);
+  font-weight: 800;
+}
+.ANeanContentDiv .ANeanCardss p{
+  font-size: 1.2rem;
+  font-family: var(--PrimaryFont);
+  line-height: 1.9rem;
+}
+
+.ANeanContentDiv img{
+  width: 100%;
+}
+
+.ANeanSpecificationsDiv{
+  width: 80%;
+  margin: 3rem auto;
+}
+.ANeanSpecificationsDiv h1{
+  font-size: 2.5rem;
+  font-family: var(--heading);
+  color: var(--secondColor);
+  text-align: center;
+ text-transform: capitalize;
+}
+
+.ANeanSpecifc {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+.ANeanSpecifc p{
+    flex-wrap:wrap;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 1rem;
+  color: white;
+  background-color: var(--MainColor);
+  border-radius: 0.78rem;
+  text-align: center;
+  cursor: pointer;
+}
+.itemWrap {
+  position: relative;
+  display: inline-block;
+}
+
+.itemWrap p {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 1rem;
+  color: white;
+  background-color: var(--MainColor);
+  border-radius: 0.78rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.idlerImg {
+  position: absolute;
+  bottom: 110%;          
+  left: 50%;            
+  transform: translateX(-100%);
+  width: 400px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 50;
+  transition: 
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.itemWrap:hover .idlerImg {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-8px); 
+}
+
+.ANeanSpecific2 p{
+  /* display:flex; */
+  flex-wrap:wrap;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 1rem;
+  color: white;
+  background-color: var(--MainColor);
+  border-radius: 0.78rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.ANeanGalleryDiv{
+  padding: 2rem 0;
+  background-color: var(--MainColor);
+  color: white;
+}
+.ANeanGalleryDiv h1{
+  font-family: var(--heading);
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  padding-left: 3rem;
+}
+
+.ANeanGallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.ANeanGallery img{
+  width: 100%;
+  height: 50dvh;
+}
+
+.QW h1{
+  font-size: 1rem;
+}
+.OurProductsGrid{
+  width: 100%;
+}
+.OurProductsGrid .Div1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+.OurProductsGrid .Div1 .Div2{
+  display: flex;
+  gap: 0.4rem;
+}
+.OurProductsGrid .Div1 .Div2 h4{
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.OurProductsGrid .Div1 .Div2 p{
+  line-height: 1.5rem;
+}
+.OurProductsGrid .Div1 .Div2 img{
+  width: 100%;
+  height: 40dvh;
+}
+
+
+
+
+
+
+
+/*Home new edits*/
+
+.NeanProductsVASection{
+  background-color: var(--MainColor);
+  color: white;
+  padding: 2rem;
+}
+.NeanProductsVASection h1{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  width: 90%;
+  margin: 0 auto;
+}
+.div321{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.NeanProductsVASection .div11{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.NeanProductsVASection .div11 img{
+  width: 50%;
+}
+
+.NeanProductsVASection .div11 p{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: var(--body);
+}
+
+
+.OurFeaturesSection{
+  margin: 2rem auto;
+  width: 85%;
+}
+
+.OurFeaturesSection h4{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+
+.OurFeaturesSection h1{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+
+
+.FeaturesSection{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  align-items: center;
+}
+.div1222{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.div1222 img{
+  width: 20%;
+  cursor:pointer;
+  transition: transform 0.3s ease;
+}
+.div1222 img:hover{
+  transform: scale(0.8);
+}
+.div12222{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.25rem;
+}
+.div12222 h4{
+  font-size: 1.5rem;
+  
+}
+
+.CIcon{
+    font-size: 1.4rem;
+}

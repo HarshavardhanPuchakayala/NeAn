@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neanind.com/sitemap.xml
