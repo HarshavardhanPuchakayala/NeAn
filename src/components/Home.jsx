@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="HomeSlider_Con">
        <strong> <h1>Engineered <br/>for Precision.</h1></strong>
-          <h2>Experience next-gen Conveyor Systems and Pre-Engineered Buildings built for precision, durability, and seamless productivity—engineered to keep your operations moving forward without compromise. </h2>
+          <h2>Experience next-gen Conveyor Systems and Pre-Engineered Buildings built for precision, durability, and seamless productivity engineered to keep your operations moving forward without compromise. </h2>
         <div className="HomeSlider_btn">
           <Link to="/Conveyors">
             Conveyors
