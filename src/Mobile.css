@@ -8,13 +8,12 @@
 
 
 .HomeSlider_Con{
-
-    top: 16%;
+    top: 10%;
     left:2.5%;
     width: 90%;
 }
 .HomeSlider_Con h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .HomeSlider_Con  h2{
     line-height: 1.6rem;
